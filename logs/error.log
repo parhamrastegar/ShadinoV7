@@ -1,0 +1,1125 @@
+# Shadino Error Log
+# Created: 2025-08-19 10:37:53
+# This file will contain PHP errors and warnings
+[19-Aug-2025 10:44:05 UTC] Received form data: Array
+(
+    [event_date] => 2025-08-31
+    [deadline] => 2025-08-31
+    [event_time] => 18:12
+    [category] => cake
+    [title] => تستشسیشسیشسی
+    [description] => توضیحاتشسیشسیشسیشسیشسیشسیشسسشی
+    [city] => qom
+    [priority] => normal
+    [budget_min] => over
+    [budget_max] => 10m
+)
+
+[19-Aug-2025 10:45:27 UTC] Received form data: Array
+(
+    [event_date] => 2025-08-31
+    [deadline] => 2025-08-31
+    [event_time] => 19:19
+    [category] => cake
+    [title] => [opii[aisd[pisad[sadoi
+    [description] => ijpadpasdpjimsadgvpajimvmpadpadmpapsdmvppdpmjvdmvppavdmpjvipjvisavmjpsiamjpsivdpvisjpi
+    [city] => karaj
+    [priority] => normal
+    [budget_min] => over
+    [budget_max] => 10m
+)
+
+[19-Aug-2025 11:36:14 UTC] PHP Deprecated:  json_decode(): Passing null to parameter #1 ($json) of type string is deprecated in C:\wamp64\www\ShadinoV3\api\ads.php on line 145
+[19-Aug-2025 11:36:14 UTC] PHP Stack trace:
+[19-Aug-2025 11:36:14 UTC] PHP   1. {main}() C:\wamp64\www\ShadinoV3\api\ads.php:0
+[19-Aug-2025 11:36:14 UTC] PHP   2. handle_get_ads() C:\wamp64\www\ShadinoV3\api\ads.php:7
+[19-Aug-2025 11:36:14 UTC] PHP   3. json_decode($json = NULL, $associative = TRUE) C:\wamp64\www\ShadinoV3\api\ads.php:145
+[19-Aug-2025 12:04:51 UTC] Received form data: Array
+(
+    [event_date] => 2025-08-26
+    [deadline] => 2025-08-26
+    [event_time] => 
+    [category] => cake
+    [title] => تستستستستستستستتستستستستتستستتست
+    [description] => تستستستستستستستتستستستستتستستتست
+    [city] => tabriz
+    [priority] => normal
+    [budget_min] => 10000000
+    [budget_max] => 10000000
+)
+
+[20-Aug-2025 00:34:04 UTC] PHP Warning:  Undefined array key "priority" in C:\wamp64\www\ShadinoV3\openedAds.php on line 791
+[20-Aug-2025 00:34:04 UTC] PHP Stack trace:
+[20-Aug-2025 00:34:04 UTC] PHP   1. {main}() C:\wamp64\www\ShadinoV3\openedAds.php:0
+[20-Aug-2025 00:34:10 UTC] PHP Warning:  Undefined array key "priority" in C:\wamp64\www\ShadinoV3\openedAds.php on line 791
+[20-Aug-2025 00:34:10 UTC] PHP Stack trace:
+[20-Aug-2025 00:34:10 UTC] PHP   1. {main}() C:\wamp64\www\ShadinoV3\openedAds.php:0
+[20-Aug-2025 00:35:05 UTC] PHP Warning:  Undefined array key "priority" in C:\wamp64\www\ShadinoV3\openedAds.php on line 791
+[20-Aug-2025 00:35:05 UTC] PHP Stack trace:
+[20-Aug-2025 00:35:05 UTC] PHP   1. {main}() C:\wamp64\www\ShadinoV3\openedAds.php:0
+[20-Aug-2025 01:34:21 UTC] PHP Deprecated:  json_decode(): Passing null to parameter #1 ($json) of type string is deprecated in C:\wamp64\www\ShadinoV3\api\ads.php on line 145
+[20-Aug-2025 01:34:21 UTC] PHP Stack trace:
+[20-Aug-2025 01:34:21 UTC] PHP   1. {main}() C:\wamp64\www\ShadinoV3\api\ads.php:0
+[20-Aug-2025 01:34:21 UTC] PHP   2. handle_get_ads() C:\wamp64\www\ShadinoV3\api\ads.php:7
+[20-Aug-2025 01:34:21 UTC] PHP   3. json_decode($json = NULL, $associative = TRUE) C:\wamp64\www\ShadinoV3\api\ads.php:145
+[20-Aug-2025 01:34:21 UTC] PHP Deprecated:  json_decode(): Passing null to parameter #1 ($json) of type string is deprecated in C:\wamp64\www\ShadinoV3\api\ads.php on line 145
+[20-Aug-2025 01:34:21 UTC] PHP Stack trace:
+[20-Aug-2025 01:34:21 UTC] PHP   1. {main}() C:\wamp64\www\ShadinoV3\api\ads.php:0
+[20-Aug-2025 01:34:21 UTC] PHP   2. handle_get_ads() C:\wamp64\www\ShadinoV3\api\ads.php:7
+[20-Aug-2025 01:34:21 UTC] PHP   3. json_decode($json = NULL, $associative = TRUE) C:\wamp64\www\ShadinoV3\api\ads.php:145
+[20-Aug-2025 01:53:13 UTC] PHP Deprecated:  json_decode(): Passing null to parameter #1 ($json) of type string is deprecated in C:\wamp64\www\ShadinoV3\api\ads.php on line 145
+[20-Aug-2025 01:53:13 UTC] PHP Stack trace:
+[20-Aug-2025 01:53:13 UTC] PHP   1. {main}() C:\wamp64\www\ShadinoV3\api\ads.php:0
+[20-Aug-2025 01:53:13 UTC] PHP   2. handle_get_ads() C:\wamp64\www\ShadinoV3\api\ads.php:7
+[20-Aug-2025 01:53:13 UTC] PHP   3. json_decode($json = NULL, $associative = TRUE) C:\wamp64\www\ShadinoV3\api\ads.php:145
+[20-Aug-2025 01:53:13 UTC] PHP Deprecated:  json_decode(): Passing null to parameter #1 ($json) of type string is deprecated in C:\wamp64\www\ShadinoV3\api\ads.php on line 145
+[20-Aug-2025 01:53:13 UTC] PHP Stack trace:
+[20-Aug-2025 01:53:13 UTC] PHP   1. {main}() C:\wamp64\www\ShadinoV3\api\ads.php:0
+[20-Aug-2025 01:53:13 UTC] PHP   2. handle_get_ads() C:\wamp64\www\ShadinoV3\api\ads.php:7
+[20-Aug-2025 01:53:13 UTC] PHP   3. json_decode($json = NULL, $associative = TRUE) C:\wamp64\www\ShadinoV3\api\ads.php:145
+[20-Aug-2025 01:57:46 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'shadino.conversations' doesn't exist in C:\wamp64\www\ShadinoV3\chat.php:24
+Stack trace:
+#0 C:\wamp64\www\ShadinoV3\chat.php(24): mysqli->prepare('\n    SELECT DIS...')
+#1 {main}
+  thrown in C:\wamp64\www\ShadinoV3\chat.php on line 24
+[20-Aug-2025 01:59:51 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'shadino.conversations' doesn't exist in C:\wamp64\www\ShadinoV3\chat.php:24
+Stack trace:
+#0 C:\wamp64\www\ShadinoV3\chat.php(24): mysqli->prepare('\n    SELECT DIS...')
+#1 {main}
+  thrown in C:\wamp64\www\ShadinoV3\chat.php on line 24
+[20-Aug-2025 01:59:51 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'shadino.conversations' doesn't exist in C:\wamp64\www\ShadinoV3\chat.php:24
+Stack trace:
+#0 C:\wamp64\www\ShadinoV3\chat.php(24): mysqli->prepare('\n    SELECT DIS...')
+#1 {main}
+  thrown in C:\wamp64\www\ShadinoV3\chat.php on line 24
+[20-Aug-2025 01:59:51 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'shadino.conversations' doesn't exist in C:\wamp64\www\ShadinoV3\chat.php:24
+Stack trace:
+#0 C:\wamp64\www\ShadinoV3\chat.php(24): mysqli->prepare('\n    SELECT DIS...')
+#1 {main}
+  thrown in C:\wamp64\www\ShadinoV3\chat.php on line 24
+[20-Aug-2025 01:59:52 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'shadino.conversations' doesn't exist in C:\wamp64\www\ShadinoV3\chat.php:24
+Stack trace:
+#0 C:\wamp64\www\ShadinoV3\chat.php(24): mysqli->prepare('\n    SELECT DIS...')
+#1 {main}
+  thrown in C:\wamp64\www\ShadinoV3\chat.php on line 24
+[20-Aug-2025 01:59:52 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'shadino.conversations' doesn't exist in C:\wamp64\www\ShadinoV3\chat.php:24
+Stack trace:
+#0 C:\wamp64\www\ShadinoV3\chat.php(24): mysqli->prepare('\n    SELECT DIS...')
+#1 {main}
+  thrown in C:\wamp64\www\ShadinoV3\chat.php on line 24
+[20-Aug-2025 01:59:52 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'shadino.conversations' doesn't exist in C:\wamp64\www\ShadinoV3\chat.php:24
+Stack trace:
+#0 C:\wamp64\www\ShadinoV3\chat.php(24): mysqli->prepare('\n    SELECT DIS...')
+#1 {main}
+  thrown in C:\wamp64\www\ShadinoV3\chat.php on line 24
+[20-Aug-2025 01:59:52 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'shadino.conversations' doesn't exist in C:\wamp64\www\ShadinoV3\chat.php:24
+Stack trace:
+#0 C:\wamp64\www\ShadinoV3\chat.php(24): mysqli->prepare('\n    SELECT DIS...')
+#1 {main}
+  thrown in C:\wamp64\www\ShadinoV3\chat.php on line 24
+[20-Aug-2025 01:59:53 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'shadino.conversations' doesn't exist in C:\wamp64\www\ShadinoV3\chat.php:24
+Stack trace:
+#0 C:\wamp64\www\ShadinoV3\chat.php(24): mysqli->prepare('\n    SELECT DIS...')
+#1 {main}
+  thrown in C:\wamp64\www\ShadinoV3\chat.php on line 24
+[20-Aug-2025 01:59:54 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'shadino.conversations' doesn't exist in C:\wamp64\www\ShadinoV3\chat.php:24
+Stack trace:
+#0 C:\wamp64\www\ShadinoV3\chat.php(24): mysqli->prepare('\n    SELECT DIS...')
+#1 {main}
+  thrown in C:\wamp64\www\ShadinoV3\chat.php on line 24
+[20-Aug-2025 02:00:46 UTC] PHP Deprecated:  json_decode(): Passing null to parameter #1 ($json) of type string is deprecated in C:\wamp64\www\ShadinoV3\api\ads.php on line 145
+[20-Aug-2025 02:00:46 UTC] PHP Stack trace:
+[20-Aug-2025 02:00:46 UTC] PHP   1. {main}() C:\wamp64\www\ShadinoV3\api\ads.php:0
+[20-Aug-2025 02:00:46 UTC] PHP   2. handle_get_ads() C:\wamp64\www\ShadinoV3\api\ads.php:7
+[20-Aug-2025 02:00:46 UTC] PHP   3. json_decode($json = NULL, $associative = TRUE) C:\wamp64\www\ShadinoV3\api\ads.php:145
+[20-Aug-2025 02:00:46 UTC] PHP Deprecated:  json_decode(): Passing null to parameter #1 ($json) of type string is deprecated in C:\wamp64\www\ShadinoV3\api\ads.php on line 145
+[20-Aug-2025 02:00:46 UTC] PHP Stack trace:
+[20-Aug-2025 02:00:46 UTC] PHP   1. {main}() C:\wamp64\www\ShadinoV3\api\ads.php:0
+[20-Aug-2025 02:00:46 UTC] PHP   2. handle_get_ads() C:\wamp64\www\ShadinoV3\api\ads.php:7
+[20-Aug-2025 02:00:46 UTC] PHP   3. json_decode($json = NULL, $associative = TRUE) C:\wamp64\www\ShadinoV3\api\ads.php:145
+[20-Aug-2025 02:00:50 UTC] PHP Deprecated:  json_decode(): Passing null to parameter #1 ($json) of type string is deprecated in C:\wamp64\www\ShadinoV3\api\ads.php on line 145
+[20-Aug-2025 02:00:50 UTC] PHP Stack trace:
+[20-Aug-2025 02:00:50 UTC] PHP   1. {main}() C:\wamp64\www\ShadinoV3\api\ads.php:0
+[20-Aug-2025 02:00:50 UTC] PHP   2. handle_get_ads() C:\wamp64\www\ShadinoV3\api\ads.php:7
+[20-Aug-2025 02:00:50 UTC] PHP   3. json_decode($json = NULL, $associative = TRUE) C:\wamp64\www\ShadinoV3\api\ads.php:145
+[20-Aug-2025 02:00:50 UTC] PHP Deprecated:  json_decode(): Passing null to parameter #1 ($json) of type string is deprecated in C:\wamp64\www\ShadinoV3\api\ads.php on line 145
+[20-Aug-2025 02:00:50 UTC] PHP Stack trace:
+[20-Aug-2025 02:00:50 UTC] PHP   1. {main}() C:\wamp64\www\ShadinoV3\api\ads.php:0
+[20-Aug-2025 02:00:50 UTC] PHP   2. handle_get_ads() C:\wamp64\www\ShadinoV3\api\ads.php:7
+[20-Aug-2025 02:00:50 UTC] PHP   3. json_decode($json = NULL, $associative = TRUE) C:\wamp64\www\ShadinoV3\api\ads.php:145
+[20-Aug-2025 02:00:50 UTC] PHP Deprecated:  json_decode(): Passing null to parameter #1 ($json) of type string is deprecated in C:\wamp64\www\ShadinoV3\api\ads.php on line 145
+[20-Aug-2025 02:00:50 UTC] PHP Stack trace:
+[20-Aug-2025 02:00:50 UTC] PHP   1. {main}() C:\wamp64\www\ShadinoV3\api\ads.php:0
+[20-Aug-2025 02:00:50 UTC] PHP   2. handle_get_ads() C:\wamp64\www\ShadinoV3\api\ads.php:7
+[20-Aug-2025 02:00:50 UTC] PHP   3. json_decode($json = NULL, $associative = TRUE) C:\wamp64\www\ShadinoV3\api\ads.php:145
+[20-Aug-2025 02:00:50 UTC] PHP Deprecated:  json_decode(): Passing null to parameter #1 ($json) of type string is deprecated in C:\wamp64\www\ShadinoV3\api\ads.php on line 145
+[20-Aug-2025 02:00:50 UTC] PHP Stack trace:
+[20-Aug-2025 02:00:50 UTC] PHP   1. {main}() C:\wamp64\www\ShadinoV3\api\ads.php:0
+[20-Aug-2025 02:00:50 UTC] PHP   2. handle_get_ads() C:\wamp64\www\ShadinoV3\api\ads.php:7
+[20-Aug-2025 02:00:50 UTC] PHP   3. json_decode($json = NULL, $associative = TRUE) C:\wamp64\www\ShadinoV3\api\ads.php:145
+[20-Aug-2025 02:01:19 UTC] PHP Deprecated:  json_decode(): Passing null to parameter #1 ($json) of type string is deprecated in C:\wamp64\www\ShadinoV3\api\ads.php on line 145
+[20-Aug-2025 02:01:19 UTC] PHP Stack trace:
+[20-Aug-2025 02:01:19 UTC] PHP   1. {main}() C:\wamp64\www\ShadinoV3\api\ads.php:0
+[20-Aug-2025 02:01:19 UTC] PHP   2. handle_get_ads() C:\wamp64\www\ShadinoV3\api\ads.php:7
+[20-Aug-2025 02:01:19 UTC] PHP   3. json_decode($json = NULL, $associative = TRUE) C:\wamp64\www\ShadinoV3\api\ads.php:145
+[20-Aug-2025 02:01:19 UTC] PHP Deprecated:  json_decode(): Passing null to parameter #1 ($json) of type string is deprecated in C:\wamp64\www\ShadinoV3\api\ads.php on line 145
+[20-Aug-2025 02:01:19 UTC] PHP Stack trace:
+[20-Aug-2025 02:01:19 UTC] PHP   1. {main}() C:\wamp64\www\ShadinoV3\api\ads.php:0
+[20-Aug-2025 02:01:19 UTC] PHP   2. handle_get_ads() C:\wamp64\www\ShadinoV3\api\ads.php:7
+[20-Aug-2025 02:01:19 UTC] PHP   3. json_decode($json = NULL, $associative = TRUE) C:\wamp64\www\ShadinoV3\api\ads.php:145
+[20-Aug-2025 02:18:46 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'shadino.conversations' doesn't exist in C:\wamp64\www\ShadinoV3\chat.php:24
+Stack trace:
+#0 C:\wamp64\www\ShadinoV3\chat.php(24): mysqli->prepare('\n    SELECT DIS...')
+#1 {main}
+  thrown in C:\wamp64\www\ShadinoV3\chat.php on line 24
+[20-Aug-2025 02:20:52 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'shadino.conversations' doesn't exist in C:\wamp64\www\ShadinoV3\chat.php:24
+Stack trace:
+#0 C:\wamp64\www\ShadinoV3\chat.php(24): mysqli->prepare('\n    SELECT DIS...')
+#1 {main}
+  thrown in C:\wamp64\www\ShadinoV3\chat.php on line 24
+[20-Aug-2025 02:23:15 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'shadino.conversations' doesn't exist in C:\wamp64\www\ShadinoV3\chat.php:24
+Stack trace:
+#0 C:\wamp64\www\ShadinoV3\chat.php(24): mysqli->prepare('\n    SELECT DIS...')
+#1 {main}
+  thrown in C:\wamp64\www\ShadinoV3\chat.php on line 24
+[20-Aug-2025 02:24:02 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'shadino.conversations' doesn't exist in C:\wamp64\www\ShadinoV3\chat.php:24
+Stack trace:
+#0 C:\wamp64\www\ShadinoV3\chat.php(24): mysqli->prepare('\n    SELECT DIS...')
+#1 {main}
+  thrown in C:\wamp64\www\ShadinoV3\chat.php on line 24
+[20-Aug-2025 02:27:48 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli::get_result() in C:\wamp64\www\ShadinoV3\chat.php:15
+Stack trace:
+#0 {main}
+  thrown in C:\wamp64\www\ShadinoV3\chat.php on line 15
+[20-Aug-2025 02:27:50 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli::get_result() in C:\wamp64\www\ShadinoV3\chat.php:15
+Stack trace:
+#0 {main}
+  thrown in C:\wamp64\www\ShadinoV3\chat.php on line 15
+[20-Aug-2025 02:29:08 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Number of bind variables doesn't match number of fields in prepared statement in C:\wamp64\www\ShadinoV3\chat.php:15
+Stack trace:
+#0 C:\wamp64\www\ShadinoV3\chat.php(15): mysqli_stmt->bind_result(8, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+#1 {main}
+  thrown in C:\wamp64\www\ShadinoV3\chat.php on line 15
+[20-Aug-2025 03:08:32 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Number of bind variables doesn't match number of fields in prepared statement in C:\wamp64\www\ShadinoV3\chat.php:15
+Stack trace:
+#0 C:\wamp64\www\ShadinoV3\chat.php(15): mysqli_stmt->bind_result(NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+#1 {main}
+  thrown in C:\wamp64\www\ShadinoV3\chat.php on line 15
+[20-Aug-2025 03:08:34 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Number of bind variables doesn't match number of fields in prepared statement in C:\wamp64\www\ShadinoV3\chat.php:15
+Stack trace:
+#0 C:\wamp64\www\ShadinoV3\chat.php(15): mysqli_stmt->bind_result(NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+#1 {main}
+  thrown in C:\wamp64\www\ShadinoV3\chat.php on line 15
+[20-Aug-2025 03:22:15 UTC] PHP Warning:  Constant DB_HOST already defined in C:\wamp64\www\ShadinoV3\includes\config.php on line 3
+[20-Aug-2025 03:22:15 UTC] PHP Stack trace:
+[20-Aug-2025 03:22:15 UTC] PHP   1. {main}() C:\wamp64\www\ShadinoV3\debug.php:0
+[20-Aug-2025 03:22:15 UTC] PHP   2. include() C:\wamp64\www\ShadinoV3\debug.php:109
+[20-Aug-2025 03:22:15 UTC] PHP   3. include() C:\wamp64\www\ShadinoV3\index.php:2
+[20-Aug-2025 03:22:15 UTC] PHP Warning:  Constant DB_USER already defined in C:\wamp64\www\ShadinoV3\includes\config.php on line 4
+[20-Aug-2025 03:22:15 UTC] PHP Stack trace:
+[20-Aug-2025 03:22:15 UTC] PHP   1. {main}() C:\wamp64\www\ShadinoV3\debug.php:0
+[20-Aug-2025 03:22:15 UTC] PHP   2. include() C:\wamp64\www\ShadinoV3\debug.php:109
+[20-Aug-2025 03:22:15 UTC] PHP   3. include() C:\wamp64\www\ShadinoV3\index.php:2
+[20-Aug-2025 03:22:15 UTC] PHP Warning:  Constant DB_PASS already defined in C:\wamp64\www\ShadinoV3\includes\config.php on line 5
+[20-Aug-2025 03:22:15 UTC] PHP Stack trace:
+[20-Aug-2025 03:22:15 UTC] PHP   1. {main}() C:\wamp64\www\ShadinoV3\debug.php:0
+[20-Aug-2025 03:22:15 UTC] PHP   2. include() C:\wamp64\www\ShadinoV3\debug.php:109
+[20-Aug-2025 03:22:15 UTC] PHP   3. include() C:\wamp64\www\ShadinoV3\index.php:2
+[20-Aug-2025 03:22:15 UTC] PHP Warning:  Constant DB_NAME already defined in C:\wamp64\www\ShadinoV3\includes\config.php on line 6
+[20-Aug-2025 03:22:15 UTC] PHP Stack trace:
+[20-Aug-2025 03:22:15 UTC] PHP   1. {main}() C:\wamp64\www\ShadinoV3\debug.php:0
+[20-Aug-2025 03:22:15 UTC] PHP   2. include() C:\wamp64\www\ShadinoV3\debug.php:109
+[20-Aug-2025 03:22:15 UTC] PHP   3. include() C:\wamp64\www\ShadinoV3\index.php:2
+[20-Aug-2025 03:22:15 UTC] PHP Warning:  Constant UPLOAD_PATH already defined in C:\wamp64\www\ShadinoV3\includes\config.php on line 20
+[20-Aug-2025 03:22:15 UTC] PHP Stack trace:
+[20-Aug-2025 03:22:15 UTC] PHP   1. {main}() C:\wamp64\www\ShadinoV3\debug.php:0
+[20-Aug-2025 03:22:15 UTC] PHP   2. include() C:\wamp64\www\ShadinoV3\debug.php:109
+[20-Aug-2025 03:22:15 UTC] PHP   3. include() C:\wamp64\www\ShadinoV3\index.php:2
+[20-Aug-2025 03:22:15 UTC] PHP Warning:  Constant MAX_FILE_SIZE already defined in C:\wamp64\www\ShadinoV3\includes\config.php on line 21
+[20-Aug-2025 03:22:15 UTC] PHP Stack trace:
+[20-Aug-2025 03:22:15 UTC] PHP   1. {main}() C:\wamp64\www\ShadinoV3\debug.php:0
+[20-Aug-2025 03:22:15 UTC] PHP   2. include() C:\wamp64\www\ShadinoV3\debug.php:109
+[20-Aug-2025 03:22:15 UTC] PHP   3. include() C:\wamp64\www\ShadinoV3\index.php:2
+[20-Aug-2025 03:22:25 UTC] PHP Warning:  Constant DB_HOST already defined in C:\wamp64\www\ShadinoV3\includes\config.php on line 3
+[20-Aug-2025 03:22:25 UTC] PHP Stack trace:
+[20-Aug-2025 03:22:25 UTC] PHP   1. {main}() C:\wamp64\www\ShadinoV3\debug.php:0
+[20-Aug-2025 03:22:25 UTC] PHP   2. include() C:\wamp64\www\ShadinoV3\debug.php:109
+[20-Aug-2025 03:22:25 UTC] PHP   3. include() C:\wamp64\www\ShadinoV3\index.php:2
+[20-Aug-2025 03:22:25 UTC] PHP Warning:  Constant DB_USER already defined in C:\wamp64\www\ShadinoV3\includes\config.php on line 4
+[20-Aug-2025 03:22:25 UTC] PHP Stack trace:
+[20-Aug-2025 03:22:25 UTC] PHP   1. {main}() C:\wamp64\www\ShadinoV3\debug.php:0
+[20-Aug-2025 03:22:25 UTC] PHP   2. include() C:\wamp64\www\ShadinoV3\debug.php:109
+[20-Aug-2025 03:22:25 UTC] PHP   3. include() C:\wamp64\www\ShadinoV3\index.php:2
+[20-Aug-2025 03:22:25 UTC] PHP Warning:  Constant DB_PASS already defined in C:\wamp64\www\ShadinoV3\includes\config.php on line 5
+[20-Aug-2025 03:22:25 UTC] PHP Stack trace:
+[20-Aug-2025 03:22:25 UTC] PHP   1. {main}() C:\wamp64\www\ShadinoV3\debug.php:0
+[20-Aug-2025 03:22:25 UTC] PHP   2. include() C:\wamp64\www\ShadinoV3\debug.php:109
+[20-Aug-2025 03:22:25 UTC] PHP   3. include() C:\wamp64\www\ShadinoV3\index.php:2
+[20-Aug-2025 03:22:25 UTC] PHP Warning:  Constant DB_NAME already defined in C:\wamp64\www\ShadinoV3\includes\config.php on line 6
+[20-Aug-2025 03:22:25 UTC] PHP Stack trace:
+[20-Aug-2025 03:22:25 UTC] PHP   1. {main}() C:\wamp64\www\ShadinoV3\debug.php:0
+[20-Aug-2025 03:22:25 UTC] PHP   2. include() C:\wamp64\www\ShadinoV3\debug.php:109
+[20-Aug-2025 03:22:25 UTC] PHP   3. include() C:\wamp64\www\ShadinoV3\index.php:2
+[20-Aug-2025 03:22:25 UTC] PHP Warning:  Constant UPLOAD_PATH already defined in C:\wamp64\www\ShadinoV3\includes\config.php on line 20
+[20-Aug-2025 03:22:25 UTC] PHP Stack trace:
+[20-Aug-2025 03:22:25 UTC] PHP   1. {main}() C:\wamp64\www\ShadinoV3\debug.php:0
+[20-Aug-2025 03:22:25 UTC] PHP   2. include() C:\wamp64\www\ShadinoV3\debug.php:109
+[20-Aug-2025 03:22:25 UTC] PHP   3. include() C:\wamp64\www\ShadinoV3\index.php:2
+[20-Aug-2025 03:22:25 UTC] PHP Warning:  Constant MAX_FILE_SIZE already defined in C:\wamp64\www\ShadinoV3\includes\config.php on line 21
+[20-Aug-2025 03:22:25 UTC] PHP Stack trace:
+[20-Aug-2025 03:22:25 UTC] PHP   1. {main}() C:\wamp64\www\ShadinoV3\debug.php:0
+[20-Aug-2025 03:22:25 UTC] PHP   2. include() C:\wamp64\www\ShadinoV3\debug.php:109
+[20-Aug-2025 03:22:25 UTC] PHP   3. include() C:\wamp64\www\ShadinoV3\index.php:2
+[21-Aug-2025 05:11:02 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active (started from C:\wamp64\www\ShadinoV4\index.php on line 2) in C:\wamp64\www\ShadinoV4\index.php on line 427
+[21-Aug-2025 05:11:02 UTC] PHP Stack trace:
+[21-Aug-2025 05:11:02 UTC] PHP   1. {main}() C:\wamp64\www\ShadinoV4\index.php:0
+[21-Aug-2025 05:11:02 UTC] PHP   2. session_start() C:\wamp64\www\ShadinoV4\index.php:427
+[21-Aug-2025 05:11:02 UTC] PHP Warning:  Constant DB_HOST already defined in C:\wamp64\www\ShadinoV4\includes\config.php on line 3
+[21-Aug-2025 05:11:02 UTC] PHP Stack trace:
+[21-Aug-2025 05:11:02 UTC] PHP   1. {main}() C:\wamp64\www\ShadinoV4\index.php:0
+[21-Aug-2025 05:11:02 UTC] PHP   2. include() C:\wamp64\www\ShadinoV4\index.php:428
+[21-Aug-2025 05:11:02 UTC] PHP Warning:  Constant DB_USER already defined in C:\wamp64\www\ShadinoV4\includes\config.php on line 4
+[21-Aug-2025 05:11:02 UTC] PHP Stack trace:
+[21-Aug-2025 05:11:02 UTC] PHP   1. {main}() C:\wamp64\www\ShadinoV4\index.php:0
+[21-Aug-2025 05:11:02 UTC] PHP   2. include() C:\wamp64\www\ShadinoV4\index.php:428
+[21-Aug-2025 05:11:02 UTC] PHP Warning:  Constant DB_PASS already defined in C:\wamp64\www\ShadinoV4\includes\config.php on line 5
+[21-Aug-2025 05:11:02 UTC] PHP Stack trace:
+[21-Aug-2025 05:11:02 UTC] PHP   1. {main}() C:\wamp64\www\ShadinoV4\index.php:0
+[21-Aug-2025 05:11:02 UTC] PHP   2. include() C:\wamp64\www\ShadinoV4\index.php:428
+[21-Aug-2025 05:11:02 UTC] PHP Warning:  Constant DB_NAME already defined in C:\wamp64\www\ShadinoV4\includes\config.php on line 6
+[21-Aug-2025 05:11:02 UTC] PHP Stack trace:
+[21-Aug-2025 05:11:02 UTC] PHP   1. {main}() C:\wamp64\www\ShadinoV4\index.php:0
+[21-Aug-2025 05:11:02 UTC] PHP   2. include() C:\wamp64\www\ShadinoV4\index.php:428
+[21-Aug-2025 05:11:02 UTC] PHP Warning:  Constant UPLOAD_PATH already defined in C:\wamp64\www\ShadinoV4\includes\config.php on line 20
+[21-Aug-2025 05:11:02 UTC] PHP Stack trace:
+[21-Aug-2025 05:11:02 UTC] PHP   1. {main}() C:\wamp64\www\ShadinoV4\index.php:0
+[21-Aug-2025 05:11:02 UTC] PHP   2. include() C:\wamp64\www\ShadinoV4\index.php:428
+[21-Aug-2025 05:11:02 UTC] PHP Warning:  Constant MAX_FILE_SIZE already defined in C:\wamp64\www\ShadinoV4\includes\config.php on line 21
+[21-Aug-2025 05:11:02 UTC] PHP Stack trace:
+[21-Aug-2025 05:11:02 UTC] PHP   1. {main}() C:\wamp64\www\ShadinoV4\index.php:0
+[21-Aug-2025 05:11:02 UTC] PHP   2. include() C:\wamp64\www\ShadinoV4\index.php:428
+[21-Aug-2025 05:11:02 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\wamp64\www\ShadinoV4\index.php:16) in C:\wamp64\www\ShadinoV4\includes\config.php on line 24
+[21-Aug-2025 05:11:02 UTC] PHP Stack trace:
+[21-Aug-2025 05:11:02 UTC] PHP   1. {main}() C:\wamp64\www\ShadinoV4\index.php:0
+[21-Aug-2025 05:11:02 UTC] PHP   2. include() C:\wamp64\www\ShadinoV4\index.php:428
+[21-Aug-2025 05:11:02 UTC] PHP   3. header($header = 'Access-Control-Allow-Origin: *') C:\wamp64\www\ShadinoV4\includes\config.php:24
+[21-Aug-2025 05:11:02 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\wamp64\www\ShadinoV4\index.php:16) in C:\wamp64\www\ShadinoV4\includes\config.php on line 25
+[21-Aug-2025 05:11:02 UTC] PHP Stack trace:
+[21-Aug-2025 05:11:02 UTC] PHP   1. {main}() C:\wamp64\www\ShadinoV4\index.php:0
+[21-Aug-2025 05:11:02 UTC] PHP   2. include() C:\wamp64\www\ShadinoV4\index.php:428
+[21-Aug-2025 05:11:02 UTC] PHP   3. header($header = 'Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS') C:\wamp64\www\ShadinoV4\includes\config.php:25
+[21-Aug-2025 05:11:02 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\wamp64\www\ShadinoV4\index.php:16) in C:\wamp64\www\ShadinoV4\includes\config.php on line 26
+[21-Aug-2025 05:11:02 UTC] PHP Stack trace:
+[21-Aug-2025 05:11:02 UTC] PHP   1. {main}() C:\wamp64\www\ShadinoV4\index.php:0
+[21-Aug-2025 05:11:02 UTC] PHP   2. include() C:\wamp64\www\ShadinoV4\index.php:428
+[21-Aug-2025 05:11:02 UTC] PHP   3. header($header = 'Access-Control-Allow-Headers: Content-Type, Authorization') C:\wamp64\www\ShadinoV4\includes\config.php:26
+[21-Aug-2025 05:11:15 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active (started from C:\wamp64\www\ShadinoV4\index.php on line 2) in C:\wamp64\www\ShadinoV4\index.php on line 427
+[21-Aug-2025 05:11:15 UTC] PHP Stack trace:
+[21-Aug-2025 05:11:15 UTC] PHP   1. {main}() C:\wamp64\www\ShadinoV4\index.php:0
+[21-Aug-2025 05:11:15 UTC] PHP   2. session_start() C:\wamp64\www\ShadinoV4\index.php:427
+[21-Aug-2025 05:11:15 UTC] PHP Warning:  Constant DB_HOST already defined in C:\wamp64\www\ShadinoV4\includes\config.php on line 3
+[21-Aug-2025 05:11:15 UTC] PHP Stack trace:
+[21-Aug-2025 05:11:15 UTC] PHP   1. {main}() C:\wamp64\www\ShadinoV4\index.php:0
+[21-Aug-2025 05:11:15 UTC] PHP   2. include() C:\wamp64\www\ShadinoV4\index.php:428
+[21-Aug-2025 05:11:15 UTC] PHP Warning:  Constant DB_USER already defined in C:\wamp64\www\ShadinoV4\includes\config.php on line 4
+[21-Aug-2025 05:11:15 UTC] PHP Stack trace:
+[21-Aug-2025 05:11:15 UTC] PHP   1. {main}() C:\wamp64\www\ShadinoV4\index.php:0
+[21-Aug-2025 05:11:15 UTC] PHP   2. include() C:\wamp64\www\ShadinoV4\index.php:428
+[21-Aug-2025 05:11:15 UTC] PHP Warning:  Constant DB_PASS already defined in C:\wamp64\www\ShadinoV4\includes\config.php on line 5
+[21-Aug-2025 05:11:15 UTC] PHP Stack trace:
+[21-Aug-2025 05:11:15 UTC] PHP   1. {main}() C:\wamp64\www\ShadinoV4\index.php:0
+[21-Aug-2025 05:11:15 UTC] PHP   2. include() C:\wamp64\www\ShadinoV4\index.php:428
+[21-Aug-2025 05:11:15 UTC] PHP Warning:  Constant DB_NAME already defined in C:\wamp64\www\ShadinoV4\includes\config.php on line 6
+[21-Aug-2025 05:11:15 UTC] PHP Stack trace:
+[21-Aug-2025 05:11:15 UTC] PHP   1. {main}() C:\wamp64\www\ShadinoV4\index.php:0
+[21-Aug-2025 05:11:15 UTC] PHP   2. include() C:\wamp64\www\ShadinoV4\index.php:428
+[21-Aug-2025 05:11:15 UTC] PHP Warning:  Constant UPLOAD_PATH already defined in C:\wamp64\www\ShadinoV4\includes\config.php on line 20
+[21-Aug-2025 05:11:15 UTC] PHP Stack trace:
+[21-Aug-2025 05:11:15 UTC] PHP   1. {main}() C:\wamp64\www\ShadinoV4\index.php:0
+[21-Aug-2025 05:11:15 UTC] PHP   2. include() C:\wamp64\www\ShadinoV4\index.php:428
+[21-Aug-2025 05:11:15 UTC] PHP Warning:  Constant MAX_FILE_SIZE already defined in C:\wamp64\www\ShadinoV4\includes\config.php on line 21
+[21-Aug-2025 05:11:15 UTC] PHP Stack trace:
+[21-Aug-2025 05:11:15 UTC] PHP   1. {main}() C:\wamp64\www\ShadinoV4\index.php:0
+[21-Aug-2025 05:11:15 UTC] PHP   2. include() C:\wamp64\www\ShadinoV4\index.php:428
+[21-Aug-2025 05:11:15 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\wamp64\www\ShadinoV4\index.php:16) in C:\wamp64\www\ShadinoV4\includes\config.php on line 24
+[21-Aug-2025 05:11:15 UTC] PHP Stack trace:
+[21-Aug-2025 05:11:15 UTC] PHP   1. {main}() C:\wamp64\www\ShadinoV4\index.php:0
+[21-Aug-2025 05:11:15 UTC] PHP   2. include() C:\wamp64\www\ShadinoV4\index.php:428
+[21-Aug-2025 05:11:15 UTC] PHP   3. header($header = 'Access-Control-Allow-Origin: *') C:\wamp64\www\ShadinoV4\includes\config.php:24
+[21-Aug-2025 05:11:15 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\wamp64\www\ShadinoV4\index.php:16) in C:\wamp64\www\ShadinoV4\includes\config.php on line 25
+[21-Aug-2025 05:11:15 UTC] PHP Stack trace:
+[21-Aug-2025 05:11:15 UTC] PHP   1. {main}() C:\wamp64\www\ShadinoV4\index.php:0
+[21-Aug-2025 05:11:15 UTC] PHP   2. include() C:\wamp64\www\ShadinoV4\index.php:428
+[21-Aug-2025 05:11:15 UTC] PHP   3. header($header = 'Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS') C:\wamp64\www\ShadinoV4\includes\config.php:25
+[21-Aug-2025 05:11:15 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\wamp64\www\ShadinoV4\index.php:16) in C:\wamp64\www\ShadinoV4\includes\config.php on line 26
+[21-Aug-2025 05:11:15 UTC] PHP Stack trace:
+[21-Aug-2025 05:11:15 UTC] PHP   1. {main}() C:\wamp64\www\ShadinoV4\index.php:0
+[21-Aug-2025 05:11:15 UTC] PHP   2. include() C:\wamp64\www\ShadinoV4\index.php:428
+[21-Aug-2025 05:11:15 UTC] PHP   3. header($header = 'Access-Control-Allow-Headers: Content-Type, Authorization') C:\wamp64\www\ShadinoV4\includes\config.php:26
+[21-Aug-2025 05:12:22 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active (started from C:\wamp64\www\ShadinoV4\index.php on line 2) in C:\wamp64\www\ShadinoV4\index.php on line 427
+[21-Aug-2025 05:12:22 UTC] PHP Stack trace:
+[21-Aug-2025 05:12:22 UTC] PHP   1. {main}() C:\wamp64\www\ShadinoV4\index.php:0
+[21-Aug-2025 05:12:22 UTC] PHP   2. session_start() C:\wamp64\www\ShadinoV4\index.php:427
+[21-Aug-2025 05:12:22 UTC] PHP Warning:  Constant DB_HOST already defined in C:\wamp64\www\ShadinoV4\includes\config.php on line 3
+[21-Aug-2025 05:12:22 UTC] PHP Stack trace:
+[21-Aug-2025 05:12:22 UTC] PHP   1. {main}() C:\wamp64\www\ShadinoV4\index.php:0
+[21-Aug-2025 05:12:22 UTC] PHP   2. include() C:\wamp64\www\ShadinoV4\index.php:428
+[21-Aug-2025 05:12:22 UTC] PHP Warning:  Constant DB_USER already defined in C:\wamp64\www\ShadinoV4\includes\config.php on line 4
+[21-Aug-2025 05:12:22 UTC] PHP Stack trace:
+[21-Aug-2025 05:12:22 UTC] PHP   1. {main}() C:\wamp64\www\ShadinoV4\index.php:0
+[21-Aug-2025 05:12:22 UTC] PHP   2. include() C:\wamp64\www\ShadinoV4\index.php:428
+[21-Aug-2025 05:12:22 UTC] PHP Warning:  Constant DB_PASS already defined in C:\wamp64\www\ShadinoV4\includes\config.php on line 5
+[21-Aug-2025 05:12:22 UTC] PHP Stack trace:
+[21-Aug-2025 05:12:22 UTC] PHP   1. {main}() C:\wamp64\www\ShadinoV4\index.php:0
+[21-Aug-2025 05:12:22 UTC] PHP   2. include() C:\wamp64\www\ShadinoV4\index.php:428
+[21-Aug-2025 05:12:22 UTC] PHP Warning:  Constant DB_NAME already defined in C:\wamp64\www\ShadinoV4\includes\config.php on line 6
+[21-Aug-2025 05:12:22 UTC] PHP Stack trace:
+[21-Aug-2025 05:12:22 UTC] PHP   1. {main}() C:\wamp64\www\ShadinoV4\index.php:0
+[21-Aug-2025 05:12:22 UTC] PHP   2. include() C:\wamp64\www\ShadinoV4\index.php:428
+[21-Aug-2025 05:12:22 UTC] PHP Warning:  Constant UPLOAD_PATH already defined in C:\wamp64\www\ShadinoV4\includes\config.php on line 20
+[21-Aug-2025 05:12:22 UTC] PHP Stack trace:
+[21-Aug-2025 05:12:22 UTC] PHP   1. {main}() C:\wamp64\www\ShadinoV4\index.php:0
+[21-Aug-2025 05:12:22 UTC] PHP   2. include() C:\wamp64\www\ShadinoV4\index.php:428
+[21-Aug-2025 05:12:22 UTC] PHP Warning:  Constant MAX_FILE_SIZE already defined in C:\wamp64\www\ShadinoV4\includes\config.php on line 21
+[21-Aug-2025 05:12:22 UTC] PHP Stack trace:
+[21-Aug-2025 05:12:22 UTC] PHP   1. {main}() C:\wamp64\www\ShadinoV4\index.php:0
+[21-Aug-2025 05:12:22 UTC] PHP   2. include() C:\wamp64\www\ShadinoV4\index.php:428
+[21-Aug-2025 05:12:22 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\wamp64\www\ShadinoV4\index.php:16) in C:\wamp64\www\ShadinoV4\includes\config.php on line 24
+[21-Aug-2025 05:12:22 UTC] PHP Stack trace:
+[21-Aug-2025 05:12:22 UTC] PHP   1. {main}() C:\wamp64\www\ShadinoV4\index.php:0
+[21-Aug-2025 05:12:22 UTC] PHP   2. include() C:\wamp64\www\ShadinoV4\index.php:428
+[21-Aug-2025 05:12:22 UTC] PHP   3. header($header = 'Access-Control-Allow-Origin: *') C:\wamp64\www\ShadinoV4\includes\config.php:24
+[21-Aug-2025 05:12:22 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\wamp64\www\ShadinoV4\index.php:16) in C:\wamp64\www\ShadinoV4\includes\config.php on line 25
+[21-Aug-2025 05:12:22 UTC] PHP Stack trace:
+[21-Aug-2025 05:12:22 UTC] PHP   1. {main}() C:\wamp64\www\ShadinoV4\index.php:0
+[21-Aug-2025 05:12:22 UTC] PHP   2. include() C:\wamp64\www\ShadinoV4\index.php:428
+[21-Aug-2025 05:12:22 UTC] PHP   3. header($header = 'Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS') C:\wamp64\www\ShadinoV4\includes\config.php:25
+[21-Aug-2025 05:12:22 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\wamp64\www\ShadinoV4\index.php:16) in C:\wamp64\www\ShadinoV4\includes\config.php on line 26
+[21-Aug-2025 05:12:22 UTC] PHP Stack trace:
+[21-Aug-2025 05:12:22 UTC] PHP   1. {main}() C:\wamp64\www\ShadinoV4\index.php:0
+[21-Aug-2025 05:12:22 UTC] PHP   2. include() C:\wamp64\www\ShadinoV4\index.php:428
+[21-Aug-2025 05:12:22 UTC] PHP   3. header($header = 'Access-Control-Allow-Headers: Content-Type, Authorization') C:\wamp64\www\ShadinoV4\includes\config.php:26
+[21-Aug-2025 05:23:03 UTC] PHP Deprecated:  json_decode(): Passing null to parameter #1 ($json) of type string is deprecated in C:\wamp64\www\ShadinoV4\api\ads.php on line 145
+[21-Aug-2025 05:23:03 UTC] PHP Stack trace:
+[21-Aug-2025 05:23:03 UTC] PHP   1. {main}() C:\wamp64\www\ShadinoV4\api\ads.php:0
+[21-Aug-2025 05:23:03 UTC] PHP   2. handle_get_ads() C:\wamp64\www\ShadinoV4\api\ads.php:7
+[21-Aug-2025 05:23:03 UTC] PHP   3. json_decode($json = NULL, $associative = TRUE) C:\wamp64\www\ShadinoV4\api\ads.php:145
+[21-Aug-2025 05:23:03 UTC] PHP Deprecated:  json_decode(): Passing null to parameter #1 ($json) of type string is deprecated in C:\wamp64\www\ShadinoV4\api\ads.php on line 145
+[21-Aug-2025 05:23:03 UTC] PHP Stack trace:
+[21-Aug-2025 05:23:03 UTC] PHP   1. {main}() C:\wamp64\www\ShadinoV4\api\ads.php:0
+[21-Aug-2025 05:23:03 UTC] PHP   2. handle_get_ads() C:\wamp64\www\ShadinoV4\api\ads.php:7
+[21-Aug-2025 05:23:03 UTC] PHP   3. json_decode($json = NULL, $associative = TRUE) C:\wamp64\www\ShadinoV4\api\ads.php:145
+[21-Aug-2025 05:26:33 UTC] PHP Deprecated:  json_decode(): Passing null to parameter #1 ($json) of type string is deprecated in C:\wamp64\www\ShadinoV4\api\ads.php on line 145
+[21-Aug-2025 05:26:33 UTC] PHP Stack trace:
+[21-Aug-2025 05:26:33 UTC] PHP   1. {main}() C:\wamp64\www\ShadinoV4\api\ads.php:0
+[21-Aug-2025 05:26:33 UTC] PHP   2. handle_get_ads() C:\wamp64\www\ShadinoV4\api\ads.php:7
+[21-Aug-2025 05:26:33 UTC] PHP   3. json_decode($json = NULL, $associative = TRUE) C:\wamp64\www\ShadinoV4\api\ads.php:145
+[21-Aug-2025 05:26:33 UTC] PHP Deprecated:  json_decode(): Passing null to parameter #1 ($json) of type string is deprecated in C:\wamp64\www\ShadinoV4\api\ads.php on line 145
+[21-Aug-2025 05:26:33 UTC] PHP Stack trace:
+[21-Aug-2025 05:26:33 UTC] PHP   1. {main}() C:\wamp64\www\ShadinoV4\api\ads.php:0
+[21-Aug-2025 05:26:33 UTC] PHP   2. handle_get_ads() C:\wamp64\www\ShadinoV4\api\ads.php:7
+[21-Aug-2025 05:26:33 UTC] PHP   3. json_decode($json = NULL, $associative = TRUE) C:\wamp64\www\ShadinoV4\api\ads.php:145
+[21-Aug-2025 05:26:36 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in C:\wamp64\www\ShadinoV4\includes\config.php on line 42
+[21-Aug-2025 05:26:36 UTC] PHP Stack trace:
+[21-Aug-2025 05:26:36 UTC] PHP   1. {main}() C:\wamp64\www\ShadinoV4\makeAds.php:0
+[21-Aug-2025 05:26:36 UTC] PHP   2. include() C:\wamp64\www\ShadinoV4\makeAds.php:3
+[21-Aug-2025 05:26:36 UTC] PHP   3. session_start() C:\wamp64\www\ShadinoV4\includes\config.php:42
+[21-Aug-2025 05:26:44 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in C:\wamp64\www\ShadinoV4\includes\config.php on line 42
+[21-Aug-2025 05:26:44 UTC] PHP Stack trace:
+[21-Aug-2025 05:26:44 UTC] PHP   1. {main}() C:\wamp64\www\ShadinoV4\makeAds.php:0
+[21-Aug-2025 05:26:44 UTC] PHP   2. include() C:\wamp64\www\ShadinoV4\makeAds.php:3
+[21-Aug-2025 05:26:44 UTC] PHP   3. session_start() C:\wamp64\www\ShadinoV4\includes\config.php:42
+[21-Aug-2025 05:26:45 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in C:\wamp64\www\ShadinoV4\includes\config.php on line 42
+[21-Aug-2025 05:26:45 UTC] PHP Stack trace:
+[21-Aug-2025 05:26:45 UTC] PHP   1. {main}() C:\wamp64\www\ShadinoV4\makeAds.php:0
+[21-Aug-2025 05:26:45 UTC] PHP   2. include() C:\wamp64\www\ShadinoV4\makeAds.php:3
+[21-Aug-2025 05:26:45 UTC] PHP   3. session_start() C:\wamp64\www\ShadinoV4\includes\config.php:42
+[21-Aug-2025 05:26:48 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in C:\wamp64\www\ShadinoV4\includes\config.php on line 42
+[21-Aug-2025 05:26:48 UTC] PHP Stack trace:
+[21-Aug-2025 05:26:48 UTC] PHP   1. {main}() C:\wamp64\www\ShadinoV4\makeAds.php:0
+[21-Aug-2025 05:26:48 UTC] PHP   2. include() C:\wamp64\www\ShadinoV4\makeAds.php:3
+[21-Aug-2025 05:26:48 UTC] PHP   3. session_start() C:\wamp64\www\ShadinoV4\includes\config.php:42
+[21-Aug-2025 05:28:06 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in C:\wamp64\www\ShadinoV4\includes\config.php on line 42
+[21-Aug-2025 05:28:06 UTC] PHP Stack trace:
+[21-Aug-2025 05:28:06 UTC] PHP   1. {main}() C:\wamp64\www\ShadinoV4\makeAds.php:0
+[21-Aug-2025 05:28:06 UTC] PHP   2. include() C:\wamp64\www\ShadinoV4\makeAds.php:3
+[21-Aug-2025 05:28:06 UTC] PHP   3. session_start() C:\wamp64\www\ShadinoV4\includes\config.php:42
+[21-Aug-2025 05:32:36 UTC] PHP Deprecated:  json_decode(): Passing null to parameter #1 ($json) of type string is deprecated in C:\wamp64\www\ShadinoV4\api\ads.php on line 145
+[21-Aug-2025 05:32:36 UTC] PHP Stack trace:
+[21-Aug-2025 05:32:36 UTC] PHP   1. {main}() C:\wamp64\www\ShadinoV4\api\ads.php:0
+[21-Aug-2025 05:32:36 UTC] PHP   2. handle_get_ads() C:\wamp64\www\ShadinoV4\api\ads.php:7
+[21-Aug-2025 05:32:36 UTC] PHP   3. json_decode($json = NULL, $associative = TRUE) C:\wamp64\www\ShadinoV4\api\ads.php:145
+[21-Aug-2025 05:32:36 UTC] PHP Deprecated:  json_decode(): Passing null to parameter #1 ($json) of type string is deprecated in C:\wamp64\www\ShadinoV4\api\ads.php on line 145
+[21-Aug-2025 05:32:36 UTC] PHP Stack trace:
+[21-Aug-2025 05:32:36 UTC] PHP   1. {main}() C:\wamp64\www\ShadinoV4\api\ads.php:0
+[21-Aug-2025 05:32:36 UTC] PHP   2. handle_get_ads() C:\wamp64\www\ShadinoV4\api\ads.php:7
+[21-Aug-2025 05:32:36 UTC] PHP   3. json_decode($json = NULL, $associative = TRUE) C:\wamp64\www\ShadinoV4\api\ads.php:145
+[21-Aug-2025 05:39:09 UTC] PHP Deprecated:  json_decode(): Passing null to parameter #1 ($json) of type string is deprecated in C:\wamp64\www\ShadinoV4\api\ads.php on line 145
+[21-Aug-2025 05:39:09 UTC] PHP Stack trace:
+[21-Aug-2025 05:39:09 UTC] PHP   1. {main}() C:\wamp64\www\ShadinoV4\api\ads.php:0
+[21-Aug-2025 05:39:09 UTC] PHP   2. handle_get_ads() C:\wamp64\www\ShadinoV4\api\ads.php:7
+[21-Aug-2025 05:39:09 UTC] PHP   3. json_decode($json = NULL, $associative = TRUE) C:\wamp64\www\ShadinoV4\api\ads.php:145
+[21-Aug-2025 05:39:09 UTC] PHP Deprecated:  json_decode(): Passing null to parameter #1 ($json) of type string is deprecated in C:\wamp64\www\ShadinoV4\api\ads.php on line 145
+[21-Aug-2025 05:39:09 UTC] PHP Stack trace:
+[21-Aug-2025 05:39:09 UTC] PHP   1. {main}() C:\wamp64\www\ShadinoV4\api\ads.php:0
+[21-Aug-2025 05:39:09 UTC] PHP   2. handle_get_ads() C:\wamp64\www\ShadinoV4\api\ads.php:7
+[21-Aug-2025 05:39:09 UTC] PHP   3. json_decode($json = NULL, $associative = TRUE) C:\wamp64\www\ShadinoV4\api\ads.php:145
+[21-Aug-2025 05:41:29 UTC] Received form data: Array
+(
+    [event_date] => 2025-08-28
+    [deadline] => 2025-08-28
+    [event_time] => 
+    [category] => cake
+    [title] => کیک تولد
+    [description] => یک کیک تولد ۱۶ سالگی برای پسرم
+    [city] => isfahan
+    [priority] => normal
+    [budget_min] => 500000
+    [budget_max] => 1000000
+)
+
+[21-Aug-2025 05:43:51 UTC] PHP Deprecated:  json_decode(): Passing null to parameter #1 ($json) of type string is deprecated in C:\wamp64\www\ShadinoV4\api\ads.php on line 145
+[21-Aug-2025 05:43:51 UTC] PHP Stack trace:
+[21-Aug-2025 05:43:51 UTC] PHP   1. {main}() C:\wamp64\www\ShadinoV4\api\ads.php:0
+[21-Aug-2025 05:43:51 UTC] PHP   2. handle_get_ads() C:\wamp64\www\ShadinoV4\api\ads.php:7
+[21-Aug-2025 05:43:51 UTC] PHP   3. json_decode($json = NULL, $associative = TRUE) C:\wamp64\www\ShadinoV4\api\ads.php:145
+[21-Aug-2025 05:43:51 UTC] PHP Deprecated:  json_decode(): Passing null to parameter #1 ($json) of type string is deprecated in C:\wamp64\www\ShadinoV4\api\ads.php on line 145
+[21-Aug-2025 05:43:51 UTC] PHP Stack trace:
+[21-Aug-2025 05:43:51 UTC] PHP   1. {main}() C:\wamp64\www\ShadinoV4\api\ads.php:0
+[21-Aug-2025 05:43:51 UTC] PHP   2. handle_get_ads() C:\wamp64\www\ShadinoV4\api\ads.php:7
+[21-Aug-2025 05:43:51 UTC] PHP   3. json_decode($json = NULL, $associative = TRUE) C:\wamp64\www\ShadinoV4\api\ads.php:145
+[21-Aug-2025 05:43:51 UTC] PHP Deprecated:  json_decode(): Passing null to parameter #1 ($json) of type string is deprecated in C:\wamp64\www\ShadinoV4\api\ads.php on line 145
+[21-Aug-2025 05:43:51 UTC] PHP Stack trace:
+[21-Aug-2025 05:43:51 UTC] PHP   1. {main}() C:\wamp64\www\ShadinoV4\api\ads.php:0
+[21-Aug-2025 05:43:51 UTC] PHP   2. handle_get_ads() C:\wamp64\www\ShadinoV4\api\ads.php:7
+[21-Aug-2025 05:43:51 UTC] PHP   3. json_decode($json = NULL, $associative = TRUE) C:\wamp64\www\ShadinoV4\api\ads.php:145
+[21-Aug-2025 05:43:51 UTC] PHP Warning:  http_response_code(): Cannot set response code - headers already sent (output started at C:\wamp64\www\ShadinoV4\api\ads.php:145) in C:\wamp64\www\ShadinoV4\includes\functions.php on line 63
+[21-Aug-2025 05:43:51 UTC] PHP Stack trace:
+[21-Aug-2025 05:43:51 UTC] PHP   1. {main}() C:\wamp64\www\ShadinoV4\api\ads.php:0
+[21-Aug-2025 05:43:51 UTC] PHP   2. handle_get_ads() C:\wamp64\www\ShadinoV4\api\ads.php:7
+[21-Aug-2025 05:43:51 UTC] PHP   3. send_success($data = ['ads' => [0 => [...], 1 => [...], 2 => [...]], 'pagination' => ['current_page' => 1, 'per_page' => 10, 'total' => '3', 'total_pages' => 1]], $message = *uninitialized*) C:\wamp64\www\ShadinoV4\api\ads.php:149
+[21-Aug-2025 05:43:51 UTC] PHP   4. send_response($data = ['success' => TRUE, 'message' => 'عملیات با موفقیت انجام شد', 'data' => ['ads' => [...], 'pagination' => [...]]], $status_code = *uninitialized*) C:\wamp64\www\ShadinoV4\includes\functions.php:73
+[21-Aug-2025 05:43:51 UTC] PHP   5. http_response_code($response_code = 200) C:\wamp64\www\ShadinoV4\includes\functions.php:63
+[21-Aug-2025 05:46:30 UTC] PHP Deprecated:  json_decode(): Passing null to parameter #1 ($json) of type string is deprecated in C:\wamp64\www\ShadinoV4\api\ads.php on line 145
+[21-Aug-2025 05:46:30 UTC] PHP Stack trace:
+[21-Aug-2025 05:46:30 UTC] PHP   1. {main}() C:\wamp64\www\ShadinoV4\api\ads.php:0
+[21-Aug-2025 05:46:30 UTC] PHP   2. handle_get_ads() C:\wamp64\www\ShadinoV4\api\ads.php:7
+[21-Aug-2025 05:46:30 UTC] PHP   3. json_decode($json = NULL, $associative = TRUE) C:\wamp64\www\ShadinoV4\api\ads.php:145
+[21-Aug-2025 05:46:30 UTC] PHP Deprecated:  json_decode(): Passing null to parameter #1 ($json) of type string is deprecated in C:\wamp64\www\ShadinoV4\api\ads.php on line 145
+[21-Aug-2025 05:46:30 UTC] PHP Stack trace:
+[21-Aug-2025 05:46:30 UTC] PHP   1. {main}() C:\wamp64\www\ShadinoV4\api\ads.php:0
+[21-Aug-2025 05:46:30 UTC] PHP   2. handle_get_ads() C:\wamp64\www\ShadinoV4\api\ads.php:7
+[21-Aug-2025 05:46:30 UTC] PHP   3. json_decode($json = NULL, $associative = TRUE) C:\wamp64\www\ShadinoV4\api\ads.php:145
+[21-Aug-2025 05:46:30 UTC] PHP Deprecated:  json_decode(): Passing null to parameter #1 ($json) of type string is deprecated in C:\wamp64\www\ShadinoV4\api\ads.php on line 145
+[21-Aug-2025 05:46:30 UTC] PHP Stack trace:
+[21-Aug-2025 05:46:30 UTC] PHP   1. {main}() C:\wamp64\www\ShadinoV4\api\ads.php:0
+[21-Aug-2025 05:46:30 UTC] PHP   2. handle_get_ads() C:\wamp64\www\ShadinoV4\api\ads.php:7
+[21-Aug-2025 05:46:30 UTC] PHP   3. json_decode($json = NULL, $associative = TRUE) C:\wamp64\www\ShadinoV4\api\ads.php:145
+[21-Aug-2025 05:46:30 UTC] PHP Warning:  http_response_code(): Cannot set response code - headers already sent (output started at C:\wamp64\www\ShadinoV4\api\ads.php:145) in C:\wamp64\www\ShadinoV4\includes\functions.php on line 63
+[21-Aug-2025 05:46:30 UTC] PHP Stack trace:
+[21-Aug-2025 05:46:30 UTC] PHP   1. {main}() C:\wamp64\www\ShadinoV4\api\ads.php:0
+[21-Aug-2025 05:46:30 UTC] PHP   2. handle_get_ads() C:\wamp64\www\ShadinoV4\api\ads.php:7
+[21-Aug-2025 05:46:30 UTC] PHP   3. send_success($data = ['ads' => [0 => [...], 1 => [...], 2 => [...]], 'pagination' => ['current_page' => 1, 'per_page' => 10, 'total' => '3', 'total_pages' => 1]], $message = *uninitialized*) C:\wamp64\www\ShadinoV4\api\ads.php:149
+[21-Aug-2025 05:46:30 UTC] PHP   4. send_response($data = ['success' => TRUE, 'message' => 'عملیات با موفقیت انجام شد', 'data' => ['ads' => [...], 'pagination' => [...]]], $status_code = *uninitialized*) C:\wamp64\www\ShadinoV4\includes\functions.php:73
+[21-Aug-2025 05:46:30 UTC] PHP   5. http_response_code($response_code = 200) C:\wamp64\www\ShadinoV4\includes\functions.php:63
+[21-Aug-2025 05:48:45 UTC] PHP Deprecated:  json_decode(): Passing null to parameter #1 ($json) of type string is deprecated in C:\wamp64\www\ShadinoV4\api\ads.php on line 145
+[21-Aug-2025 05:48:45 UTC] PHP Stack trace:
+[21-Aug-2025 05:48:45 UTC] PHP   1. {main}() C:\wamp64\www\ShadinoV4\api\ads.php:0
+[21-Aug-2025 05:48:45 UTC] PHP   2. handle_get_ads() C:\wamp64\www\ShadinoV4\api\ads.php:7
+[21-Aug-2025 05:48:45 UTC] PHP   3. json_decode($json = NULL, $associative = TRUE) C:\wamp64\www\ShadinoV4\api\ads.php:145
+[21-Aug-2025 05:48:45 UTC] PHP Deprecated:  json_decode(): Passing null to parameter #1 ($json) of type string is deprecated in C:\wamp64\www\ShadinoV4\api\ads.php on line 145
+[21-Aug-2025 05:48:45 UTC] PHP Stack trace:
+[21-Aug-2025 05:48:45 UTC] PHP   1. {main}() C:\wamp64\www\ShadinoV4\api\ads.php:0
+[21-Aug-2025 05:48:45 UTC] PHP   2. handle_get_ads() C:\wamp64\www\ShadinoV4\api\ads.php:7
+[21-Aug-2025 05:48:45 UTC] PHP   3. json_decode($json = NULL, $associative = TRUE) C:\wamp64\www\ShadinoV4\api\ads.php:145
+[21-Aug-2025 05:48:45 UTC] PHP Deprecated:  json_decode(): Passing null to parameter #1 ($json) of type string is deprecated in C:\wamp64\www\ShadinoV4\api\ads.php on line 145
+[21-Aug-2025 05:48:45 UTC] PHP Stack trace:
+[21-Aug-2025 05:48:45 UTC] PHP   1. {main}() C:\wamp64\www\ShadinoV4\api\ads.php:0
+[21-Aug-2025 05:48:45 UTC] PHP   2. handle_get_ads() C:\wamp64\www\ShadinoV4\api\ads.php:7
+[21-Aug-2025 05:48:45 UTC] PHP   3. json_decode($json = NULL, $associative = TRUE) C:\wamp64\www\ShadinoV4\api\ads.php:145
+[21-Aug-2025 05:48:45 UTC] PHP Warning:  http_response_code(): Cannot set response code - headers already sent (output started at C:\wamp64\www\ShadinoV4\api\ads.php:145) in C:\wamp64\www\ShadinoV4\includes\functions.php on line 63
+[21-Aug-2025 05:48:45 UTC] PHP Stack trace:
+[21-Aug-2025 05:48:45 UTC] PHP   1. {main}() C:\wamp64\www\ShadinoV4\api\ads.php:0
+[21-Aug-2025 05:48:45 UTC] PHP   2. handle_get_ads() C:\wamp64\www\ShadinoV4\api\ads.php:7
+[21-Aug-2025 05:48:45 UTC] PHP   3. send_success($data = ['ads' => [0 => [...], 1 => [...], 2 => [...]], 'pagination' => ['current_page' => 1, 'per_page' => 10, 'total' => '3', 'total_pages' => 1]], $message = *uninitialized*) C:\wamp64\www\ShadinoV4\api\ads.php:149
+[21-Aug-2025 05:48:45 UTC] PHP   4. send_response($data = ['success' => TRUE, 'message' => 'عملیات با موفقیت انجام شد', 'data' => ['ads' => [...], 'pagination' => [...]]], $status_code = *uninitialized*) C:\wamp64\www\ShadinoV4\includes\functions.php:73
+[21-Aug-2025 05:48:45 UTC] PHP   5. http_response_code($response_code = 200) C:\wamp64\www\ShadinoV4\includes\functions.php:63
+[21-Aug-2025 05:49:15 UTC] PHP Deprecated:  json_decode(): Passing null to parameter #1 ($json) of type string is deprecated in C:\wamp64\www\ShadinoV4\api\ads.php on line 145
+[21-Aug-2025 05:49:15 UTC] PHP Stack trace:
+[21-Aug-2025 05:49:15 UTC] PHP   1. {main}() C:\wamp64\www\ShadinoV4\api\ads.php:0
+[21-Aug-2025 05:49:15 UTC] PHP   2. handle_get_ads() C:\wamp64\www\ShadinoV4\api\ads.php:7
+[21-Aug-2025 05:49:15 UTC] PHP   3. json_decode($json = NULL, $associative = TRUE) C:\wamp64\www\ShadinoV4\api\ads.php:145
+[21-Aug-2025 05:49:15 UTC] PHP Deprecated:  json_decode(): Passing null to parameter #1 ($json) of type string is deprecated in C:\wamp64\www\ShadinoV4\api\ads.php on line 145
+[21-Aug-2025 05:49:15 UTC] PHP Stack trace:
+[21-Aug-2025 05:49:15 UTC] PHP   1. {main}() C:\wamp64\www\ShadinoV4\api\ads.php:0
+[21-Aug-2025 05:49:15 UTC] PHP   2. handle_get_ads() C:\wamp64\www\ShadinoV4\api\ads.php:7
+[21-Aug-2025 05:49:15 UTC] PHP   3. json_decode($json = NULL, $associative = TRUE) C:\wamp64\www\ShadinoV4\api\ads.php:145
+[21-Aug-2025 05:49:15 UTC] PHP Deprecated:  json_decode(): Passing null to parameter #1 ($json) of type string is deprecated in C:\wamp64\www\ShadinoV4\api\ads.php on line 145
+[21-Aug-2025 05:49:15 UTC] PHP Stack trace:
+[21-Aug-2025 05:49:15 UTC] PHP   1. {main}() C:\wamp64\www\ShadinoV4\api\ads.php:0
+[21-Aug-2025 05:49:15 UTC] PHP   2. handle_get_ads() C:\wamp64\www\ShadinoV4\api\ads.php:7
+[21-Aug-2025 05:49:15 UTC] PHP   3. json_decode($json = NULL, $associative = TRUE) C:\wamp64\www\ShadinoV4\api\ads.php:145
+[21-Aug-2025 05:49:15 UTC] PHP Warning:  http_response_code(): Cannot set response code - headers already sent (output started at C:\wamp64\www\ShadinoV4\api\ads.php:145) in C:\wamp64\www\ShadinoV4\includes\functions.php on line 63
+[21-Aug-2025 05:49:15 UTC] PHP Stack trace:
+[21-Aug-2025 05:49:15 UTC] PHP   1. {main}() C:\wamp64\www\ShadinoV4\api\ads.php:0
+[21-Aug-2025 05:49:15 UTC] PHP   2. handle_get_ads() C:\wamp64\www\ShadinoV4\api\ads.php:7
+[21-Aug-2025 05:49:15 UTC] PHP   3. send_success($data = ['ads' => [0 => [...], 1 => [...], 2 => [...]], 'pagination' => ['current_page' => 1, 'per_page' => 10, 'total' => '3', 'total_pages' => 1]], $message = *uninitialized*) C:\wamp64\www\ShadinoV4\api\ads.php:149
+[21-Aug-2025 05:49:15 UTC] PHP   4. send_response($data = ['success' => TRUE, 'message' => 'عملیات با موفقیت انجام شد', 'data' => ['ads' => [...], 'pagination' => [...]]], $status_code = *uninitialized*) C:\wamp64\www\ShadinoV4\includes\functions.php:73
+[21-Aug-2025 05:49:15 UTC] PHP   5. http_response_code($response_code = 200) C:\wamp64\www\ShadinoV4\includes\functions.php:63
+[21-Aug-2025 05:49:26 UTC] PHP Deprecated:  json_decode(): Passing null to parameter #1 ($json) of type string is deprecated in C:\wamp64\www\ShadinoV4\api\ads.php on line 145
+[21-Aug-2025 05:49:26 UTC] PHP Stack trace:
+[21-Aug-2025 05:49:26 UTC] PHP   1. {main}() C:\wamp64\www\ShadinoV4\api\ads.php:0
+[21-Aug-2025 05:49:26 UTC] PHP   2. handle_get_ads() C:\wamp64\www\ShadinoV4\api\ads.php:7
+[21-Aug-2025 05:49:26 UTC] PHP   3. json_decode($json = NULL, $associative = TRUE) C:\wamp64\www\ShadinoV4\api\ads.php:145
+[21-Aug-2025 05:49:26 UTC] PHP Deprecated:  json_decode(): Passing null to parameter #1 ($json) of type string is deprecated in C:\wamp64\www\ShadinoV4\api\ads.php on line 145
+[21-Aug-2025 05:49:26 UTC] PHP Stack trace:
+[21-Aug-2025 05:49:26 UTC] PHP   1. {main}() C:\wamp64\www\ShadinoV4\api\ads.php:0
+[21-Aug-2025 05:49:26 UTC] PHP   2. handle_get_ads() C:\wamp64\www\ShadinoV4\api\ads.php:7
+[21-Aug-2025 05:49:26 UTC] PHP   3. json_decode($json = NULL, $associative = TRUE) C:\wamp64\www\ShadinoV4\api\ads.php:145
+[21-Aug-2025 05:49:26 UTC] PHP Deprecated:  json_decode(): Passing null to parameter #1 ($json) of type string is deprecated in C:\wamp64\www\ShadinoV4\api\ads.php on line 145
+[21-Aug-2025 05:49:26 UTC] PHP Stack trace:
+[21-Aug-2025 05:49:26 UTC] PHP   1. {main}() C:\wamp64\www\ShadinoV4\api\ads.php:0
+[21-Aug-2025 05:49:26 UTC] PHP   2. handle_get_ads() C:\wamp64\www\ShadinoV4\api\ads.php:7
+[21-Aug-2025 05:49:26 UTC] PHP   3. json_decode($json = NULL, $associative = TRUE) C:\wamp64\www\ShadinoV4\api\ads.php:145
+[21-Aug-2025 05:49:26 UTC] PHP Warning:  http_response_code(): Cannot set response code - headers already sent (output started at C:\wamp64\www\ShadinoV4\api\ads.php:145) in C:\wamp64\www\ShadinoV4\includes\functions.php on line 63
+[21-Aug-2025 05:49:26 UTC] PHP Stack trace:
+[21-Aug-2025 05:49:26 UTC] PHP   1. {main}() C:\wamp64\www\ShadinoV4\api\ads.php:0
+[21-Aug-2025 05:49:26 UTC] PHP   2. handle_get_ads() C:\wamp64\www\ShadinoV4\api\ads.php:7
+[21-Aug-2025 05:49:26 UTC] PHP   3. send_success($data = ['ads' => [0 => [...], 1 => [...], 2 => [...]], 'pagination' => ['current_page' => 1, 'per_page' => 10, 'total' => '3', 'total_pages' => 1]], $message = *uninitialized*) C:\wamp64\www\ShadinoV4\api\ads.php:149
+[21-Aug-2025 05:49:26 UTC] PHP   4. send_response($data = ['success' => TRUE, 'message' => 'عملیات با موفقیت انجام شد', 'data' => ['ads' => [...], 'pagination' => [...]]], $status_code = *uninitialized*) C:\wamp64\www\ShadinoV4\includes\functions.php:73
+[21-Aug-2025 05:49:26 UTC] PHP   5. http_response_code($response_code = 200) C:\wamp64\www\ShadinoV4\includes\functions.php:63
+[21-Aug-2025 05:49:43 UTC] PHP Deprecated:  json_decode(): Passing null to parameter #1 ($json) of type string is deprecated in C:\wamp64\www\ShadinoV4\api\ads.php on line 145
+[21-Aug-2025 05:49:43 UTC] PHP Stack trace:
+[21-Aug-2025 05:49:43 UTC] PHP   1. {main}() C:\wamp64\www\ShadinoV4\api\ads.php:0
+[21-Aug-2025 05:49:43 UTC] PHP   2. handle_get_ads() C:\wamp64\www\ShadinoV4\api\ads.php:7
+[21-Aug-2025 05:49:43 UTC] PHP   3. json_decode($json = NULL, $associative = TRUE) C:\wamp64\www\ShadinoV4\api\ads.php:145
+[21-Aug-2025 05:49:43 UTC] PHP Deprecated:  json_decode(): Passing null to parameter #1 ($json) of type string is deprecated in C:\wamp64\www\ShadinoV4\api\ads.php on line 145
+[21-Aug-2025 05:49:43 UTC] PHP Stack trace:
+[21-Aug-2025 05:49:43 UTC] PHP   1. {main}() C:\wamp64\www\ShadinoV4\api\ads.php:0
+[21-Aug-2025 05:49:43 UTC] PHP   2. handle_get_ads() C:\wamp64\www\ShadinoV4\api\ads.php:7
+[21-Aug-2025 05:49:43 UTC] PHP   3. json_decode($json = NULL, $associative = TRUE) C:\wamp64\www\ShadinoV4\api\ads.php:145
+[21-Aug-2025 05:49:43 UTC] PHP Deprecated:  json_decode(): Passing null to parameter #1 ($json) of type string is deprecated in C:\wamp64\www\ShadinoV4\api\ads.php on line 145
+[21-Aug-2025 05:49:43 UTC] PHP Stack trace:
+[21-Aug-2025 05:49:43 UTC] PHP   1. {main}() C:\wamp64\www\ShadinoV4\api\ads.php:0
+[21-Aug-2025 05:49:43 UTC] PHP   2. handle_get_ads() C:\wamp64\www\ShadinoV4\api\ads.php:7
+[21-Aug-2025 05:49:43 UTC] PHP   3. json_decode($json = NULL, $associative = TRUE) C:\wamp64\www\ShadinoV4\api\ads.php:145
+[21-Aug-2025 05:49:43 UTC] PHP Warning:  http_response_code(): Cannot set response code - headers already sent (output started at C:\wamp64\www\ShadinoV4\api\ads.php:145) in C:\wamp64\www\ShadinoV4\includes\functions.php on line 63
+[21-Aug-2025 05:49:43 UTC] PHP Stack trace:
+[21-Aug-2025 05:49:43 UTC] PHP   1. {main}() C:\wamp64\www\ShadinoV4\api\ads.php:0
+[21-Aug-2025 05:49:43 UTC] PHP   2. handle_get_ads() C:\wamp64\www\ShadinoV4\api\ads.php:7
+[21-Aug-2025 05:49:43 UTC] PHP   3. send_success($data = ['ads' => [0 => [...], 1 => [...], 2 => [...]], 'pagination' => ['current_page' => 1, 'per_page' => 10, 'total' => '3', 'total_pages' => 1]], $message = *uninitialized*) C:\wamp64\www\ShadinoV4\api\ads.php:149
+[21-Aug-2025 05:49:43 UTC] PHP   4. send_response($data = ['success' => TRUE, 'message' => 'عملیات با موفقیت انجام شد', 'data' => ['ads' => [...], 'pagination' => [...]]], $status_code = *uninitialized*) C:\wamp64\www\ShadinoV4\includes\functions.php:73
+[21-Aug-2025 05:49:43 UTC] PHP   5. http_response_code($response_code = 200) C:\wamp64\www\ShadinoV4\includes\functions.php:63
+[21-Aug-2025 05:49:47 UTC] PHP Deprecated:  json_decode(): Passing null to parameter #1 ($json) of type string is deprecated in C:\wamp64\www\ShadinoV4\api\ads.php on line 145
+[21-Aug-2025 05:49:47 UTC] PHP Stack trace:
+[21-Aug-2025 05:49:47 UTC] PHP   1. {main}() C:\wamp64\www\ShadinoV4\api\ads.php:0
+[21-Aug-2025 05:49:47 UTC] PHP   2. handle_get_ads() C:\wamp64\www\ShadinoV4\api\ads.php:7
+[21-Aug-2025 05:49:47 UTC] PHP   3. json_decode($json = NULL, $associative = TRUE) C:\wamp64\www\ShadinoV4\api\ads.php:145
+[21-Aug-2025 05:49:47 UTC] PHP Deprecated:  json_decode(): Passing null to parameter #1 ($json) of type string is deprecated in C:\wamp64\www\ShadinoV4\api\ads.php on line 145
+[21-Aug-2025 05:49:47 UTC] PHP Stack trace:
+[21-Aug-2025 05:49:47 UTC] PHP   1. {main}() C:\wamp64\www\ShadinoV4\api\ads.php:0
+[21-Aug-2025 05:49:47 UTC] PHP   2. handle_get_ads() C:\wamp64\www\ShadinoV4\api\ads.php:7
+[21-Aug-2025 05:49:47 UTC] PHP   3. json_decode($json = NULL, $associative = TRUE) C:\wamp64\www\ShadinoV4\api\ads.php:145
+[21-Aug-2025 05:49:47 UTC] PHP Deprecated:  json_decode(): Passing null to parameter #1 ($json) of type string is deprecated in C:\wamp64\www\ShadinoV4\api\ads.php on line 145
+[21-Aug-2025 05:49:47 UTC] PHP Stack trace:
+[21-Aug-2025 05:49:47 UTC] PHP   1. {main}() C:\wamp64\www\ShadinoV4\api\ads.php:0
+[21-Aug-2025 05:49:47 UTC] PHP   2. handle_get_ads() C:\wamp64\www\ShadinoV4\api\ads.php:7
+[21-Aug-2025 05:49:47 UTC] PHP   3. json_decode($json = NULL, $associative = TRUE) C:\wamp64\www\ShadinoV4\api\ads.php:145
+[21-Aug-2025 05:49:47 UTC] PHP Warning:  http_response_code(): Cannot set response code - headers already sent (output started at C:\wamp64\www\ShadinoV4\api\ads.php:145) in C:\wamp64\www\ShadinoV4\includes\functions.php on line 63
+[21-Aug-2025 05:49:47 UTC] PHP Stack trace:
+[21-Aug-2025 05:49:47 UTC] PHP   1. {main}() C:\wamp64\www\ShadinoV4\api\ads.php:0
+[21-Aug-2025 05:49:47 UTC] PHP   2. handle_get_ads() C:\wamp64\www\ShadinoV4\api\ads.php:7
+[21-Aug-2025 05:49:47 UTC] PHP   3. send_success($data = ['ads' => [0 => [...], 1 => [...], 2 => [...]], 'pagination' => ['current_page' => 1, 'per_page' => 10, 'total' => '3', 'total_pages' => 1]], $message = *uninitialized*) C:\wamp64\www\ShadinoV4\api\ads.php:149
+[21-Aug-2025 05:49:47 UTC] PHP   4. send_response($data = ['success' => TRUE, 'message' => 'عملیات با موفقیت انجام شد', 'data' => ['ads' => [...], 'pagination' => [...]]], $status_code = *uninitialized*) C:\wamp64\www\ShadinoV4\includes\functions.php:73
+[21-Aug-2025 05:49:47 UTC] PHP   5. http_response_code($response_code = 200) C:\wamp64\www\ShadinoV4\includes\functions.php:63
+[21-Aug-2025 05:50:12 UTC] PHP Deprecated:  json_decode(): Passing null to parameter #1 ($json) of type string is deprecated in C:\wamp64\www\ShadinoV4\api\ads.php on line 145
+[21-Aug-2025 05:50:12 UTC] PHP Stack trace:
+[21-Aug-2025 05:50:12 UTC] PHP   1. {main}() C:\wamp64\www\ShadinoV4\api\ads.php:0
+[21-Aug-2025 05:50:12 UTC] PHP   2. handle_get_ads() C:\wamp64\www\ShadinoV4\api\ads.php:7
+[21-Aug-2025 05:50:12 UTC] PHP   3. json_decode($json = NULL, $associative = TRUE) C:\wamp64\www\ShadinoV4\api\ads.php:145
+[21-Aug-2025 05:50:12 UTC] PHP Deprecated:  json_decode(): Passing null to parameter #1 ($json) of type string is deprecated in C:\wamp64\www\ShadinoV4\api\ads.php on line 145
+[21-Aug-2025 05:50:12 UTC] PHP Stack trace:
+[21-Aug-2025 05:50:12 UTC] PHP   1. {main}() C:\wamp64\www\ShadinoV4\api\ads.php:0
+[21-Aug-2025 05:50:12 UTC] PHP   2. handle_get_ads() C:\wamp64\www\ShadinoV4\api\ads.php:7
+[21-Aug-2025 05:50:12 UTC] PHP   3. json_decode($json = NULL, $associative = TRUE) C:\wamp64\www\ShadinoV4\api\ads.php:145
+[21-Aug-2025 05:50:12 UTC] PHP Deprecated:  json_decode(): Passing null to parameter #1 ($json) of type string is deprecated in C:\wamp64\www\ShadinoV4\api\ads.php on line 145
+[21-Aug-2025 05:50:12 UTC] PHP Stack trace:
+[21-Aug-2025 05:50:12 UTC] PHP   1. {main}() C:\wamp64\www\ShadinoV4\api\ads.php:0
+[21-Aug-2025 05:50:12 UTC] PHP   2. handle_get_ads() C:\wamp64\www\ShadinoV4\api\ads.php:7
+[21-Aug-2025 05:50:12 UTC] PHP   3. json_decode($json = NULL, $associative = TRUE) C:\wamp64\www\ShadinoV4\api\ads.php:145
+[21-Aug-2025 05:50:12 UTC] PHP Warning:  http_response_code(): Cannot set response code - headers already sent (output started at C:\wamp64\www\ShadinoV4\api\ads.php:145) in C:\wamp64\www\ShadinoV4\includes\functions.php on line 63
+[21-Aug-2025 05:50:12 UTC] PHP Stack trace:
+[21-Aug-2025 05:50:12 UTC] PHP   1. {main}() C:\wamp64\www\ShadinoV4\api\ads.php:0
+[21-Aug-2025 05:50:12 UTC] PHP   2. handle_get_ads() C:\wamp64\www\ShadinoV4\api\ads.php:7
+[21-Aug-2025 05:50:12 UTC] PHP   3. send_success($data = ['ads' => [0 => [...], 1 => [...], 2 => [...]], 'pagination' => ['current_page' => 1, 'per_page' => 10, 'total' => '3', 'total_pages' => 1]], $message = *uninitialized*) C:\wamp64\www\ShadinoV4\api\ads.php:149
+[21-Aug-2025 05:50:12 UTC] PHP   4. send_response($data = ['success' => TRUE, 'message' => 'عملیات با موفقیت انجام شد', 'data' => ['ads' => [...], 'pagination' => [...]]], $status_code = *uninitialized*) C:\wamp64\www\ShadinoV4\includes\functions.php:73
+[21-Aug-2025 05:50:12 UTC] PHP   5. http_response_code($response_code = 200) C:\wamp64\www\ShadinoV4\includes\functions.php:63
+[21-Aug-2025 05:50:56 UTC] PHP Deprecated:  json_decode(): Passing null to parameter #1 ($json) of type string is deprecated in C:\wamp64\www\ShadinoV4\api\ads.php on line 145
+[21-Aug-2025 05:50:56 UTC] PHP Stack trace:
+[21-Aug-2025 05:50:56 UTC] PHP   1. {main}() C:\wamp64\www\ShadinoV4\api\ads.php:0
+[21-Aug-2025 05:50:56 UTC] PHP   2. handle_get_ads() C:\wamp64\www\ShadinoV4\api\ads.php:7
+[21-Aug-2025 05:50:56 UTC] PHP   3. json_decode($json = NULL, $associative = TRUE) C:\wamp64\www\ShadinoV4\api\ads.php:145
+[21-Aug-2025 05:50:56 UTC] PHP Deprecated:  json_decode(): Passing null to parameter #1 ($json) of type string is deprecated in C:\wamp64\www\ShadinoV4\api\ads.php on line 145
+[21-Aug-2025 05:50:56 UTC] PHP Stack trace:
+[21-Aug-2025 05:50:56 UTC] PHP   1. {main}() C:\wamp64\www\ShadinoV4\api\ads.php:0
+[21-Aug-2025 05:50:56 UTC] PHP   2. handle_get_ads() C:\wamp64\www\ShadinoV4\api\ads.php:7
+[21-Aug-2025 05:50:56 UTC] PHP   3. json_decode($json = NULL, $associative = TRUE) C:\wamp64\www\ShadinoV4\api\ads.php:145
+[21-Aug-2025 05:50:56 UTC] PHP Deprecated:  json_decode(): Passing null to parameter #1 ($json) of type string is deprecated in C:\wamp64\www\ShadinoV4\api\ads.php on line 145
+[21-Aug-2025 05:50:56 UTC] PHP Stack trace:
+[21-Aug-2025 05:50:56 UTC] PHP   1. {main}() C:\wamp64\www\ShadinoV4\api\ads.php:0
+[21-Aug-2025 05:50:56 UTC] PHP   2. handle_get_ads() C:\wamp64\www\ShadinoV4\api\ads.php:7
+[21-Aug-2025 05:50:56 UTC] PHP   3. json_decode($json = NULL, $associative = TRUE) C:\wamp64\www\ShadinoV4\api\ads.php:145
+[21-Aug-2025 05:50:56 UTC] PHP Warning:  http_response_code(): Cannot set response code - headers already sent (output started at C:\wamp64\www\ShadinoV4\api\ads.php:145) in C:\wamp64\www\ShadinoV4\includes\functions.php on line 63
+[21-Aug-2025 05:50:56 UTC] PHP Stack trace:
+[21-Aug-2025 05:50:56 UTC] PHP   1. {main}() C:\wamp64\www\ShadinoV4\api\ads.php:0
+[21-Aug-2025 05:50:56 UTC] PHP   2. handle_get_ads() C:\wamp64\www\ShadinoV4\api\ads.php:7
+[21-Aug-2025 05:50:56 UTC] PHP   3. send_success($data = ['ads' => [0 => [...], 1 => [...], 2 => [...]], 'pagination' => ['current_page' => 1, 'per_page' => 10, 'total' => '3', 'total_pages' => 1]], $message = *uninitialized*) C:\wamp64\www\ShadinoV4\api\ads.php:149
+[21-Aug-2025 05:50:56 UTC] PHP   4. send_response($data = ['success' => TRUE, 'message' => 'عملیات با موفقیت انجام شد', 'data' => ['ads' => [...], 'pagination' => [...]]], $status_code = *uninitialized*) C:\wamp64\www\ShadinoV4\includes\functions.php:73
+[21-Aug-2025 05:50:56 UTC] PHP   5. http_response_code($response_code = 200) C:\wamp64\www\ShadinoV4\includes\functions.php:63
+[21-Aug-2025 05:51:10 UTC] PHP Deprecated:  json_decode(): Passing null to parameter #1 ($json) of type string is deprecated in C:\wamp64\www\ShadinoV4\api\ads.php on line 145
+[21-Aug-2025 05:51:10 UTC] PHP Stack trace:
+[21-Aug-2025 05:51:10 UTC] PHP   1. {main}() C:\wamp64\www\ShadinoV4\api\ads.php:0
+[21-Aug-2025 05:51:10 UTC] PHP   2. handle_get_ads() C:\wamp64\www\ShadinoV4\api\ads.php:7
+[21-Aug-2025 05:51:10 UTC] PHP   3. json_decode($json = NULL, $associative = TRUE) C:\wamp64\www\ShadinoV4\api\ads.php:145
+[21-Aug-2025 05:51:10 UTC] PHP Deprecated:  json_decode(): Passing null to parameter #1 ($json) of type string is deprecated in C:\wamp64\www\ShadinoV4\api\ads.php on line 145
+[21-Aug-2025 05:51:10 UTC] PHP Stack trace:
+[21-Aug-2025 05:51:10 UTC] PHP   1. {main}() C:\wamp64\www\ShadinoV4\api\ads.php:0
+[21-Aug-2025 05:51:10 UTC] PHP   2. handle_get_ads() C:\wamp64\www\ShadinoV4\api\ads.php:7
+[21-Aug-2025 05:51:10 UTC] PHP   3. json_decode($json = NULL, $associative = TRUE) C:\wamp64\www\ShadinoV4\api\ads.php:145
+[21-Aug-2025 05:51:10 UTC] PHP Deprecated:  json_decode(): Passing null to parameter #1 ($json) of type string is deprecated in C:\wamp64\www\ShadinoV4\api\ads.php on line 145
+[21-Aug-2025 05:51:10 UTC] PHP Stack trace:
+[21-Aug-2025 05:51:10 UTC] PHP   1. {main}() C:\wamp64\www\ShadinoV4\api\ads.php:0
+[21-Aug-2025 05:51:10 UTC] PHP   2. handle_get_ads() C:\wamp64\www\ShadinoV4\api\ads.php:7
+[21-Aug-2025 05:51:10 UTC] PHP   3. json_decode($json = NULL, $associative = TRUE) C:\wamp64\www\ShadinoV4\api\ads.php:145
+[21-Aug-2025 05:51:10 UTC] PHP Warning:  http_response_code(): Cannot set response code - headers already sent (output started at C:\wamp64\www\ShadinoV4\api\ads.php:145) in C:\wamp64\www\ShadinoV4\includes\functions.php on line 63
+[21-Aug-2025 05:51:10 UTC] PHP Stack trace:
+[21-Aug-2025 05:51:10 UTC] PHP   1. {main}() C:\wamp64\www\ShadinoV4\api\ads.php:0
+[21-Aug-2025 05:51:10 UTC] PHP   2. handle_get_ads() C:\wamp64\www\ShadinoV4\api\ads.php:7
+[21-Aug-2025 05:51:10 UTC] PHP   3. send_success($data = ['ads' => [0 => [...], 1 => [...], 2 => [...]], 'pagination' => ['current_page' => 1, 'per_page' => 10, 'total' => '3', 'total_pages' => 1]], $message = *uninitialized*) C:\wamp64\www\ShadinoV4\api\ads.php:149
+[21-Aug-2025 05:51:10 UTC] PHP   4. send_response($data = ['success' => TRUE, 'message' => 'عملیات با موفقیت انجام شد', 'data' => ['ads' => [...], 'pagination' => [...]]], $status_code = *uninitialized*) C:\wamp64\www\ShadinoV4\includes\functions.php:73
+[21-Aug-2025 05:51:10 UTC] PHP   5. http_response_code($response_code = 200) C:\wamp64\www\ShadinoV4\includes\functions.php:63
+[21-Aug-2025 05:51:28 UTC] PHP Deprecated:  json_decode(): Passing null to parameter #1 ($json) of type string is deprecated in C:\wamp64\www\ShadinoV4\api\ads.php on line 145
+[21-Aug-2025 05:51:28 UTC] PHP Stack trace:
+[21-Aug-2025 05:51:28 UTC] PHP   1. {main}() C:\wamp64\www\ShadinoV4\api\ads.php:0
+[21-Aug-2025 05:51:28 UTC] PHP   2. handle_get_ads() C:\wamp64\www\ShadinoV4\api\ads.php:7
+[21-Aug-2025 05:51:28 UTC] PHP   3. json_decode($json = NULL, $associative = TRUE) C:\wamp64\www\ShadinoV4\api\ads.php:145
+[21-Aug-2025 05:51:28 UTC] PHP Deprecated:  json_decode(): Passing null to parameter #1 ($json) of type string is deprecated in C:\wamp64\www\ShadinoV4\api\ads.php on line 145
+[21-Aug-2025 05:51:28 UTC] PHP Stack trace:
+[21-Aug-2025 05:51:28 UTC] PHP   1. {main}() C:\wamp64\www\ShadinoV4\api\ads.php:0
+[21-Aug-2025 05:51:28 UTC] PHP   2. handle_get_ads() C:\wamp64\www\ShadinoV4\api\ads.php:7
+[21-Aug-2025 05:51:28 UTC] PHP   3. json_decode($json = NULL, $associative = TRUE) C:\wamp64\www\ShadinoV4\api\ads.php:145
+[21-Aug-2025 05:51:28 UTC] PHP Deprecated:  json_decode(): Passing null to parameter #1 ($json) of type string is deprecated in C:\wamp64\www\ShadinoV4\api\ads.php on line 145
+[21-Aug-2025 05:51:28 UTC] PHP Stack trace:
+[21-Aug-2025 05:51:28 UTC] PHP   1. {main}() C:\wamp64\www\ShadinoV4\api\ads.php:0
+[21-Aug-2025 05:51:28 UTC] PHP   2. handle_get_ads() C:\wamp64\www\ShadinoV4\api\ads.php:7
+[21-Aug-2025 05:51:28 UTC] PHP   3. json_decode($json = NULL, $associative = TRUE) C:\wamp64\www\ShadinoV4\api\ads.php:145
+[21-Aug-2025 05:51:28 UTC] PHP Warning:  http_response_code(): Cannot set response code - headers already sent (output started at C:\wamp64\www\ShadinoV4\api\ads.php:145) in C:\wamp64\www\ShadinoV4\includes\functions.php on line 63
+[21-Aug-2025 05:51:28 UTC] PHP Stack trace:
+[21-Aug-2025 05:51:28 UTC] PHP   1. {main}() C:\wamp64\www\ShadinoV4\api\ads.php:0
+[21-Aug-2025 05:51:29 UTC] PHP   2. handle_get_ads() C:\wamp64\www\ShadinoV4\api\ads.php:7
+[21-Aug-2025 05:51:29 UTC] PHP   3. send_success($data = ['ads' => [0 => [...], 1 => [...], 2 => [...]], 'pagination' => ['current_page' => 1, 'per_page' => 10, 'total' => '3', 'total_pages' => 1]], $message = *uninitialized*) C:\wamp64\www\ShadinoV4\api\ads.php:149
+[21-Aug-2025 05:51:29 UTC] PHP   4. send_response($data = ['success' => TRUE, 'message' => 'عملیات با موفقیت انجام شد', 'data' => ['ads' => [...], 'pagination' => [...]]], $status_code = *uninitialized*) C:\wamp64\www\ShadinoV4\includes\functions.php:73
+[21-Aug-2025 05:51:29 UTC] PHP   5. http_response_code($response_code = 200) C:\wamp64\www\ShadinoV4\includes\functions.php:63
+[21-Aug-2025 05:51:57 UTC] PHP Deprecated:  json_decode(): Passing null to parameter #1 ($json) of type string is deprecated in C:\wamp64\www\ShadinoV4\api\ads.php on line 145
+[21-Aug-2025 05:51:57 UTC] PHP Stack trace:
+[21-Aug-2025 05:51:57 UTC] PHP   1. {main}() C:\wamp64\www\ShadinoV4\api\ads.php:0
+[21-Aug-2025 05:51:57 UTC] PHP   2. handle_get_ads() C:\wamp64\www\ShadinoV4\api\ads.php:7
+[21-Aug-2025 05:51:57 UTC] PHP   3. json_decode($json = NULL, $associative = TRUE) C:\wamp64\www\ShadinoV4\api\ads.php:145
+[21-Aug-2025 05:51:57 UTC] PHP Deprecated:  json_decode(): Passing null to parameter #1 ($json) of type string is deprecated in C:\wamp64\www\ShadinoV4\api\ads.php on line 145
+[21-Aug-2025 05:51:57 UTC] PHP Stack trace:
+[21-Aug-2025 05:51:57 UTC] PHP   1. {main}() C:\wamp64\www\ShadinoV4\api\ads.php:0
+[21-Aug-2025 05:51:57 UTC] PHP   2. handle_get_ads() C:\wamp64\www\ShadinoV4\api\ads.php:7
+[21-Aug-2025 05:51:57 UTC] PHP   3. json_decode($json = NULL, $associative = TRUE) C:\wamp64\www\ShadinoV4\api\ads.php:145
+[21-Aug-2025 05:51:57 UTC] PHP Deprecated:  json_decode(): Passing null to parameter #1 ($json) of type string is deprecated in C:\wamp64\www\ShadinoV4\api\ads.php on line 145
+[21-Aug-2025 05:51:57 UTC] PHP Stack trace:
+[21-Aug-2025 05:51:57 UTC] PHP   1. {main}() C:\wamp64\www\ShadinoV4\api\ads.php:0
+[21-Aug-2025 05:51:57 UTC] PHP   2. handle_get_ads() C:\wamp64\www\ShadinoV4\api\ads.php:7
+[21-Aug-2025 05:51:57 UTC] PHP   3. json_decode($json = NULL, $associative = TRUE) C:\wamp64\www\ShadinoV4\api\ads.php:145
+[21-Aug-2025 05:51:57 UTC] PHP Warning:  http_response_code(): Cannot set response code - headers already sent (output started at C:\wamp64\www\ShadinoV4\api\ads.php:145) in C:\wamp64\www\ShadinoV4\includes\functions.php on line 63
+[21-Aug-2025 05:51:57 UTC] PHP Stack trace:
+[21-Aug-2025 05:51:57 UTC] PHP   1. {main}() C:\wamp64\www\ShadinoV4\api\ads.php:0
+[21-Aug-2025 05:51:57 UTC] PHP   2. handle_get_ads() C:\wamp64\www\ShadinoV4\api\ads.php:7
+[21-Aug-2025 05:51:57 UTC] PHP   3. send_success($data = ['ads' => [0 => [...], 1 => [...], 2 => [...]], 'pagination' => ['current_page' => 1, 'per_page' => 10, 'total' => '3', 'total_pages' => 1]], $message = *uninitialized*) C:\wamp64\www\ShadinoV4\api\ads.php:149
+[21-Aug-2025 05:51:57 UTC] PHP   4. send_response($data = ['success' => TRUE, 'message' => 'عملیات با موفقیت انجام شد', 'data' => ['ads' => [...], 'pagination' => [...]]], $status_code = *uninitialized*) C:\wamp64\www\ShadinoV4\includes\functions.php:73
+[21-Aug-2025 05:51:57 UTC] PHP   5. http_response_code($response_code = 200) C:\wamp64\www\ShadinoV4\includes\functions.php:63
+[21-Aug-2025 05:52:14 UTC] PHP Deprecated:  json_decode(): Passing null to parameter #1 ($json) of type string is deprecated in C:\wamp64\www\ShadinoV4\api\ads.php on line 145
+[21-Aug-2025 05:52:14 UTC] PHP Stack trace:
+[21-Aug-2025 05:52:14 UTC] PHP   1. {main}() C:\wamp64\www\ShadinoV4\api\ads.php:0
+[21-Aug-2025 05:52:14 UTC] PHP   2. handle_get_ads() C:\wamp64\www\ShadinoV4\api\ads.php:7
+[21-Aug-2025 05:52:14 UTC] PHP   3. json_decode($json = NULL, $associative = TRUE) C:\wamp64\www\ShadinoV4\api\ads.php:145
+[21-Aug-2025 05:52:14 UTC] PHP Deprecated:  json_decode(): Passing null to parameter #1 ($json) of type string is deprecated in C:\wamp64\www\ShadinoV4\api\ads.php on line 145
+[21-Aug-2025 05:52:14 UTC] PHP Stack trace:
+[21-Aug-2025 05:52:14 UTC] PHP   1. {main}() C:\wamp64\www\ShadinoV4\api\ads.php:0
+[21-Aug-2025 05:52:14 UTC] PHP   2. handle_get_ads() C:\wamp64\www\ShadinoV4\api\ads.php:7
+[21-Aug-2025 05:52:14 UTC] PHP   3. json_decode($json = NULL, $associative = TRUE) C:\wamp64\www\ShadinoV4\api\ads.php:145
+[21-Aug-2025 05:52:14 UTC] PHP Deprecated:  json_decode(): Passing null to parameter #1 ($json) of type string is deprecated in C:\wamp64\www\ShadinoV4\api\ads.php on line 145
+[21-Aug-2025 05:52:14 UTC] PHP Stack trace:
+[21-Aug-2025 05:52:14 UTC] PHP   1. {main}() C:\wamp64\www\ShadinoV4\api\ads.php:0
+[21-Aug-2025 05:52:14 UTC] PHP   2. handle_get_ads() C:\wamp64\www\ShadinoV4\api\ads.php:7
+[21-Aug-2025 05:52:14 UTC] PHP   3. json_decode($json = NULL, $associative = TRUE) C:\wamp64\www\ShadinoV4\api\ads.php:145
+[21-Aug-2025 05:52:14 UTC] PHP Warning:  http_response_code(): Cannot set response code - headers already sent (output started at C:\wamp64\www\ShadinoV4\api\ads.php:145) in C:\wamp64\www\ShadinoV4\includes\functions.php on line 63
+[21-Aug-2025 05:52:14 UTC] PHP Stack trace:
+[21-Aug-2025 05:52:14 UTC] PHP   1. {main}() C:\wamp64\www\ShadinoV4\api\ads.php:0
+[21-Aug-2025 05:52:14 UTC] PHP   2. handle_get_ads() C:\wamp64\www\ShadinoV4\api\ads.php:7
+[21-Aug-2025 05:52:14 UTC] PHP   3. send_success($data = ['ads' => [0 => [...], 1 => [...], 2 => [...]], 'pagination' => ['current_page' => 1, 'per_page' => 10, 'total' => '3', 'total_pages' => 1]], $message = *uninitialized*) C:\wamp64\www\ShadinoV4\api\ads.php:149
+[21-Aug-2025 05:52:14 UTC] PHP   4. send_response($data = ['success' => TRUE, 'message' => 'عملیات با موفقیت انجام شد', 'data' => ['ads' => [...], 'pagination' => [...]]], $status_code = *uninitialized*) C:\wamp64\www\ShadinoV4\includes\functions.php:73
+[21-Aug-2025 05:52:14 UTC] PHP   5. http_response_code($response_code = 200) C:\wamp64\www\ShadinoV4\includes\functions.php:63
+[21-Aug-2025 05:54:22 UTC] PHP Deprecated:  json_decode(): Passing null to parameter #1 ($json) of type string is deprecated in C:\wamp64\www\ShadinoV4\api\ads.php on line 145
+[21-Aug-2025 05:54:22 UTC] PHP Stack trace:
+[21-Aug-2025 05:54:22 UTC] PHP   1. {main}() C:\wamp64\www\ShadinoV4\api\ads.php:0
+[21-Aug-2025 05:54:22 UTC] PHP   2. handle_get_ads() C:\wamp64\www\ShadinoV4\api\ads.php:7
+[21-Aug-2025 05:54:22 UTC] PHP   3. json_decode($json = NULL, $associative = TRUE) C:\wamp64\www\ShadinoV4\api\ads.php:145
+[21-Aug-2025 05:54:22 UTC] PHP Deprecated:  json_decode(): Passing null to parameter #1 ($json) of type string is deprecated in C:\wamp64\www\ShadinoV4\api\ads.php on line 145
+[21-Aug-2025 05:54:22 UTC] PHP Stack trace:
+[21-Aug-2025 05:54:22 UTC] PHP   1. {main}() C:\wamp64\www\ShadinoV4\api\ads.php:0
+[21-Aug-2025 05:54:22 UTC] PHP   2. handle_get_ads() C:\wamp64\www\ShadinoV4\api\ads.php:7
+[21-Aug-2025 05:54:22 UTC] PHP   3. json_decode($json = NULL, $associative = TRUE) C:\wamp64\www\ShadinoV4\api\ads.php:145
+[21-Aug-2025 05:54:22 UTC] PHP Deprecated:  json_decode(): Passing null to parameter #1 ($json) of type string is deprecated in C:\wamp64\www\ShadinoV4\api\ads.php on line 145
+[21-Aug-2025 05:54:22 UTC] PHP Stack trace:
+[21-Aug-2025 05:54:22 UTC] PHP   1. {main}() C:\wamp64\www\ShadinoV4\api\ads.php:0
+[21-Aug-2025 05:54:22 UTC] PHP   2. handle_get_ads() C:\wamp64\www\ShadinoV4\api\ads.php:7
+[21-Aug-2025 05:54:22 UTC] PHP   3. json_decode($json = NULL, $associative = TRUE) C:\wamp64\www\ShadinoV4\api\ads.php:145
+[21-Aug-2025 05:54:22 UTC] PHP Warning:  http_response_code(): Cannot set response code - headers already sent (output started at C:\wamp64\www\ShadinoV4\api\ads.php:145) in C:\wamp64\www\ShadinoV4\includes\functions.php on line 63
+[21-Aug-2025 05:54:22 UTC] PHP Stack trace:
+[21-Aug-2025 05:54:22 UTC] PHP   1. {main}() C:\wamp64\www\ShadinoV4\api\ads.php:0
+[21-Aug-2025 05:54:22 UTC] PHP   2. handle_get_ads() C:\wamp64\www\ShadinoV4\api\ads.php:7
+[21-Aug-2025 05:54:22 UTC] PHP   3. send_success($data = ['ads' => [0 => [...], 1 => [...], 2 => [...]], 'pagination' => ['current_page' => 1, 'per_page' => 10, 'total' => '3', 'total_pages' => 1]], $message = *uninitialized*) C:\wamp64\www\ShadinoV4\api\ads.php:149
+[21-Aug-2025 05:54:22 UTC] PHP   4. send_response($data = ['success' => TRUE, 'message' => 'عملیات با موفقیت انجام شد', 'data' => ['ads' => [...], 'pagination' => [...]]], $status_code = *uninitialized*) C:\wamp64\www\ShadinoV4\includes\functions.php:73
+[21-Aug-2025 05:54:22 UTC] PHP   5. http_response_code($response_code = 200) C:\wamp64\www\ShadinoV4\includes\functions.php:63
+[21-Aug-2025 06:07:12 UTC] PHP Deprecated:  json_decode(): Passing null to parameter #1 ($json) of type string is deprecated in C:\wamp64\www\ShadinoV4\api\ads.php on line 145
+[21-Aug-2025 06:07:12 UTC] PHP Stack trace:
+[21-Aug-2025 06:07:12 UTC] PHP   1. {main}() C:\wamp64\www\ShadinoV4\api\ads.php:0
+[21-Aug-2025 06:07:12 UTC] PHP   2. handle_get_ads() C:\wamp64\www\ShadinoV4\api\ads.php:7
+[21-Aug-2025 06:07:12 UTC] PHP   3. json_decode($json = NULL, $associative = TRUE) C:\wamp64\www\ShadinoV4\api\ads.php:145
+[21-Aug-2025 06:07:12 UTC] PHP Deprecated:  json_decode(): Passing null to parameter #1 ($json) of type string is deprecated in C:\wamp64\www\ShadinoV4\api\ads.php on line 145
+[21-Aug-2025 06:07:12 UTC] PHP Stack trace:
+[21-Aug-2025 06:07:12 UTC] PHP   1. {main}() C:\wamp64\www\ShadinoV4\api\ads.php:0
+[21-Aug-2025 06:07:12 UTC] PHP   2. handle_get_ads() C:\wamp64\www\ShadinoV4\api\ads.php:7
+[21-Aug-2025 06:07:12 UTC] PHP   3. json_decode($json = NULL, $associative = TRUE) C:\wamp64\www\ShadinoV4\api\ads.php:145
+[21-Aug-2025 06:07:12 UTC] PHP Deprecated:  json_decode(): Passing null to parameter #1 ($json) of type string is deprecated in C:\wamp64\www\ShadinoV4\api\ads.php on line 145
+[21-Aug-2025 06:07:12 UTC] PHP Stack trace:
+[21-Aug-2025 06:07:12 UTC] PHP   1. {main}() C:\wamp64\www\ShadinoV4\api\ads.php:0
+[21-Aug-2025 06:07:12 UTC] PHP   2. handle_get_ads() C:\wamp64\www\ShadinoV4\api\ads.php:7
+[21-Aug-2025 06:07:12 UTC] PHP   3. json_decode($json = NULL, $associative = TRUE) C:\wamp64\www\ShadinoV4\api\ads.php:145
+[21-Aug-2025 06:07:12 UTC] PHP Warning:  http_response_code(): Cannot set response code - headers already sent (output started at C:\wamp64\www\ShadinoV4\api\ads.php:145) in C:\wamp64\www\ShadinoV4\includes\functions.php on line 63
+[21-Aug-2025 06:07:12 UTC] PHP Stack trace:
+[21-Aug-2025 06:07:12 UTC] PHP   1. {main}() C:\wamp64\www\ShadinoV4\api\ads.php:0
+[21-Aug-2025 06:07:12 UTC] PHP   2. handle_get_ads() C:\wamp64\www\ShadinoV4\api\ads.php:7
+[21-Aug-2025 06:07:12 UTC] PHP   3. send_success($data = ['ads' => [0 => [...], 1 => [...], 2 => [...]], 'pagination' => ['current_page' => 1, 'per_page' => 10, 'total' => '3', 'total_pages' => 1]], $message = *uninitialized*) C:\wamp64\www\ShadinoV4\api\ads.php:149
+[21-Aug-2025 06:07:12 UTC] PHP   4. send_response($data = ['success' => TRUE, 'message' => 'عملیات با موفقیت انجام شد', 'data' => ['ads' => [...], 'pagination' => [...]]], $status_code = *uninitialized*) C:\wamp64\www\ShadinoV4\includes\functions.php:73
+[21-Aug-2025 06:07:12 UTC] PHP   5. http_response_code($response_code = 200) C:\wamp64\www\ShadinoV4\includes\functions.php:63
+[21-Aug-2025 06:08:56 UTC] Received form data: Array
+(
+    [event_date] => 2025-08-31
+    [deadline] => 2025-08-31
+    [event_time] => 
+    [category] => decoration
+    [title] => چیدمان بادکنک در تولد
+    [description] => چیدمان بادکنک در تولدچیدمان بادکنک در تولد
+    [city] => other
+    [priority] => normal
+    [budget_min] => 10000000
+    [budget_max] => 10000000
+)
+
+[21-Aug-2025 06:09:17 UTC] PHP Deprecated:  json_decode(): Passing null to parameter #1 ($json) of type string is deprecated in C:\wamp64\www\ShadinoV4\api\ads.php on line 145
+[21-Aug-2025 06:09:17 UTC] PHP Stack trace:
+[21-Aug-2025 06:09:17 UTC] PHP   1. {main}() C:\wamp64\www\ShadinoV4\api\ads.php:0
+[21-Aug-2025 06:09:17 UTC] PHP   2. handle_get_ads() C:\wamp64\www\ShadinoV4\api\ads.php:7
+[21-Aug-2025 06:09:17 UTC] PHP   3. json_decode($json = NULL, $associative = TRUE) C:\wamp64\www\ShadinoV4\api\ads.php:145
+[21-Aug-2025 06:09:17 UTC] PHP Deprecated:  json_decode(): Passing null to parameter #1 ($json) of type string is deprecated in C:\wamp64\www\ShadinoV4\api\ads.php on line 145
+[21-Aug-2025 06:09:17 UTC] PHP Stack trace:
+[21-Aug-2025 06:09:17 UTC] PHP   1. {main}() C:\wamp64\www\ShadinoV4\api\ads.php:0
+[21-Aug-2025 06:09:17 UTC] PHP   2. handle_get_ads() C:\wamp64\www\ShadinoV4\api\ads.php:7
+[21-Aug-2025 06:09:17 UTC] PHP   3. json_decode($json = NULL, $associative = TRUE) C:\wamp64\www\ShadinoV4\api\ads.php:145
+[21-Aug-2025 06:09:17 UTC] PHP Deprecated:  json_decode(): Passing null to parameter #1 ($json) of type string is deprecated in C:\wamp64\www\ShadinoV4\api\ads.php on line 145
+[21-Aug-2025 06:09:17 UTC] PHP Stack trace:
+[21-Aug-2025 06:09:17 UTC] PHP   1. {main}() C:\wamp64\www\ShadinoV4\api\ads.php:0
+[21-Aug-2025 06:09:17 UTC] PHP   2. handle_get_ads() C:\wamp64\www\ShadinoV4\api\ads.php:7
+[21-Aug-2025 06:09:17 UTC] PHP   3. json_decode($json = NULL, $associative = TRUE) C:\wamp64\www\ShadinoV4\api\ads.php:145
+[21-Aug-2025 06:09:17 UTC] PHP Deprecated:  json_decode(): Passing null to parameter #1 ($json) of type string is deprecated in C:\wamp64\www\ShadinoV4\api\ads.php on line 145
+[21-Aug-2025 06:09:17 UTC] PHP Stack trace:
+[21-Aug-2025 06:09:17 UTC] PHP   1. {main}() C:\wamp64\www\ShadinoV4\api\ads.php:0
+[21-Aug-2025 06:09:17 UTC] PHP   2. handle_get_ads() C:\wamp64\www\ShadinoV4\api\ads.php:7
+[21-Aug-2025 06:09:17 UTC] PHP   3. json_decode($json = NULL, $associative = TRUE) C:\wamp64\www\ShadinoV4\api\ads.php:145
+[21-Aug-2025 06:09:17 UTC] PHP Warning:  http_response_code(): Cannot set response code - headers already sent (output started at C:\wamp64\www\ShadinoV4\api\ads.php:145) in C:\wamp64\www\ShadinoV4\includes\functions.php on line 63
+[21-Aug-2025 06:09:17 UTC] PHP Stack trace:
+[21-Aug-2025 06:09:17 UTC] PHP   1. {main}() C:\wamp64\www\ShadinoV4\api\ads.php:0
+[21-Aug-2025 06:09:17 UTC] PHP   2. handle_get_ads() C:\wamp64\www\ShadinoV4\api\ads.php:7
+[21-Aug-2025 06:09:17 UTC] PHP   3. send_success($data = ['ads' => [0 => [...], 1 => [...], 2 => [...], 3 => [...]], 'pagination' => ['current_page' => 1, 'per_page' => 10, 'total' => '4', 'total_pages' => 1]], $message = *uninitialized*) C:\wamp64\www\ShadinoV4\api\ads.php:149
+[21-Aug-2025 06:09:17 UTC] PHP   4. send_response($data = ['success' => TRUE, 'message' => 'عملیات با موفقیت انجام شد', 'data' => ['ads' => [...], 'pagination' => [...]]], $status_code = *uninitialized*) C:\wamp64\www\ShadinoV4\includes\functions.php:73
+[21-Aug-2025 06:09:17 UTC] PHP   5. http_response_code($response_code = 200) C:\wamp64\www\ShadinoV4\includes\functions.php:63
+[21-Aug-2025 06:09:18 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\wamp64\www\ShadinoV4\header.php:1) in C:\wamp64\www\ShadinoV4\profile.php on line 13
+[21-Aug-2025 06:09:18 UTC] PHP Stack trace:
+[21-Aug-2025 06:09:18 UTC] PHP   1. {main}() C:\wamp64\www\ShadinoV4\profile.php:0
+[21-Aug-2025 06:09:18 UTC] PHP   2. header($header = 'Location: login.php') C:\wamp64\www\ShadinoV4\profile.php:13
+[21-Aug-2025 06:09:22 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\wamp64\www\ShadinoV4\header.php:1) in C:\wamp64\www\ShadinoV4\profile.php on line 6
+[21-Aug-2025 06:09:22 UTC] PHP Stack trace:
+[21-Aug-2025 06:09:22 UTC] PHP   1. {main}() C:\wamp64\www\ShadinoV4\profile.php:0
+[21-Aug-2025 06:09:22 UTC] PHP   2. header($header = 'Location: login.php') C:\wamp64\www\ShadinoV4\profile.php:6
+[21-Aug-2025 06:09:54 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\wamp64\www\ShadinoV4\header.php:1) in C:\wamp64\www\ShadinoV4\profile.php on line 9
+[21-Aug-2025 06:09:54 UTC] PHP Stack trace:
+[21-Aug-2025 06:09:54 UTC] PHP   1. {main}() C:\wamp64\www\ShadinoV4\profile.php:0
+[21-Aug-2025 06:09:54 UTC] PHP   2. header($header = 'Location: login.php') C:\wamp64\www\ShadinoV4\profile.php:9
+[21-Aug-2025 06:09:57 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\wamp64\www\ShadinoV4\header.php:1) in C:\wamp64\www\ShadinoV4\profile.php on line 9
+[21-Aug-2025 06:09:57 UTC] PHP Stack trace:
+[21-Aug-2025 06:09:57 UTC] PHP   1. {main}() C:\wamp64\www\ShadinoV4\profile.php:0
+[21-Aug-2025 06:09:57 UTC] PHP   2. header($header = 'Location: login.php') C:\wamp64\www\ShadinoV4\profile.php:9
+[21-Aug-2025 06:09:59 UTC] PHP Warning:  Undefined array key "user_id" in C:\wamp64\www\ShadinoV4\profile.php on line 32
+[21-Aug-2025 06:09:59 UTC] PHP Stack trace:
+[21-Aug-2025 06:09:59 UTC] PHP   1. {main}() C:\wamp64\www\ShadinoV4\profile.php:0
+[21-Aug-2025 06:09:59 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\wamp64\www\ShadinoV4\header.php:1) in C:\wamp64\www\ShadinoV4\profile.php on line 43
+[21-Aug-2025 06:09:59 UTC] PHP Stack trace:
+[21-Aug-2025 06:09:59 UTC] PHP   1. {main}() C:\wamp64\www\ShadinoV4\profile.php:0
+[21-Aug-2025 06:09:59 UTC] PHP   2. header($header = 'Location: login.php') C:\wamp64\www\ShadinoV4\profile.php:43
+[21-Aug-2025 06:09:59 UTC] PHP Warning:  Undefined array key "user_id" in C:\wamp64\www\ShadinoV4\profile.php on line 32
+[21-Aug-2025 06:09:59 UTC] PHP Stack trace:
+[21-Aug-2025 06:09:59 UTC] PHP   1. {main}() C:\wamp64\www\ShadinoV4\profile.php:0
+[21-Aug-2025 06:09:59 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\wamp64\www\ShadinoV4\header.php:1) in C:\wamp64\www\ShadinoV4\profile.php on line 43
+[21-Aug-2025 06:09:59 UTC] PHP Stack trace:
+[21-Aug-2025 06:09:59 UTC] PHP   1. {main}() C:\wamp64\www\ShadinoV4\profile.php:0
+[21-Aug-2025 06:09:59 UTC] PHP   2. header($header = 'Location: login.php') C:\wamp64\www\ShadinoV4\profile.php:43
+[21-Aug-2025 06:10:04 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\wamp64\www\ShadinoV4\header.php:1) in C:\wamp64\www\ShadinoV4\profile.php on line 6
+[21-Aug-2025 06:10:04 UTC] PHP Stack trace:
+[21-Aug-2025 06:10:04 UTC] PHP   1. {main}() C:\wamp64\www\ShadinoV4\profile.php:0
+[21-Aug-2025 06:10:04 UTC] PHP   2. header($header = 'Location: login.php') C:\wamp64\www\ShadinoV4\profile.php:6
+[21-Aug-2025 06:10:05 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\wamp64\www\ShadinoV4\header.php:1) in C:\wamp64\www\ShadinoV4\profile.php on line 6
+[21-Aug-2025 06:10:05 UTC] PHP Stack trace:
+[21-Aug-2025 06:10:05 UTC] PHP   1. {main}() C:\wamp64\www\ShadinoV4\profile.php:0
+[21-Aug-2025 06:10:05 UTC] PHP   2. header($header = 'Location: login.php') C:\wamp64\www\ShadinoV4\profile.php:6
+[21-Aug-2025 06:10:05 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\wamp64\www\ShadinoV4\header.php:1) in C:\wamp64\www\ShadinoV4\profile.php on line 6
+[21-Aug-2025 06:10:05 UTC] PHP Stack trace:
+[21-Aug-2025 06:10:05 UTC] PHP   1. {main}() C:\wamp64\www\ShadinoV4\profile.php:0
+[21-Aug-2025 06:10:05 UTC] PHP   2. header($header = 'Location: login.php') C:\wamp64\www\ShadinoV4\profile.php:6
+[21-Aug-2025 06:10:07 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\wamp64\www\ShadinoV4\header.php:1) in C:\wamp64\www\ShadinoV4\profile.php on line 6
+[21-Aug-2025 06:10:07 UTC] PHP Stack trace:
+[21-Aug-2025 06:10:07 UTC] PHP   1. {main}() C:\wamp64\www\ShadinoV4\profile.php:0
+[21-Aug-2025 06:10:07 UTC] PHP   2. header($header = 'Location: login.php') C:\wamp64\www\ShadinoV4\profile.php:6
+[21-Aug-2025 06:10:08 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\wamp64\www\ShadinoV4\header.php:1) in C:\wamp64\www\ShadinoV4\profile.php on line 6
+[21-Aug-2025 06:10:08 UTC] PHP Stack trace:
+[21-Aug-2025 06:10:08 UTC] PHP   1. {main}() C:\wamp64\www\ShadinoV4\profile.php:0
+[21-Aug-2025 06:10:08 UTC] PHP   2. header($header = 'Location: login.php') C:\wamp64\www\ShadinoV4\profile.php:6
+[21-Aug-2025 06:16:35 UTC] PHP Deprecated:  json_decode(): Passing null to parameter #1 ($json) of type string is deprecated in C:\wamp64\www\ShadinoV4\api\ads.php on line 145
+[21-Aug-2025 06:16:35 UTC] PHP Stack trace:
+[21-Aug-2025 06:16:35 UTC] PHP   1. {main}() C:\wamp64\www\ShadinoV4\api\ads.php:0
+[21-Aug-2025 06:16:35 UTC] PHP   2. handle_get_ads() C:\wamp64\www\ShadinoV4\api\ads.php:7
+[21-Aug-2025 06:16:35 UTC] PHP   3. json_decode($json = NULL, $associative = TRUE) C:\wamp64\www\ShadinoV4\api\ads.php:145
+[21-Aug-2025 06:16:35 UTC] PHP Deprecated:  json_decode(): Passing null to parameter #1 ($json) of type string is deprecated in C:\wamp64\www\ShadinoV4\api\ads.php on line 145
+[21-Aug-2025 06:16:35 UTC] PHP Stack trace:
+[21-Aug-2025 06:16:35 UTC] PHP   1. {main}() C:\wamp64\www\ShadinoV4\api\ads.php:0
+[21-Aug-2025 06:16:35 UTC] PHP   2. handle_get_ads() C:\wamp64\www\ShadinoV4\api\ads.php:7
+[21-Aug-2025 06:16:35 UTC] PHP   3. json_decode($json = NULL, $associative = TRUE) C:\wamp64\www\ShadinoV4\api\ads.php:145
+[21-Aug-2025 06:16:35 UTC] PHP Deprecated:  json_decode(): Passing null to parameter #1 ($json) of type string is deprecated in C:\wamp64\www\ShadinoV4\api\ads.php on line 145
+[21-Aug-2025 06:16:35 UTC] PHP Stack trace:
+[21-Aug-2025 06:16:35 UTC] PHP   1. {main}() C:\wamp64\www\ShadinoV4\api\ads.php:0
+[21-Aug-2025 06:16:35 UTC] PHP   2. handle_get_ads() C:\wamp64\www\ShadinoV4\api\ads.php:7
+[21-Aug-2025 06:16:35 UTC] PHP   3. json_decode($json = NULL, $associative = TRUE) C:\wamp64\www\ShadinoV4\api\ads.php:145
+[21-Aug-2025 06:16:35 UTC] PHP Deprecated:  json_decode(): Passing null to parameter #1 ($json) of type string is deprecated in C:\wamp64\www\ShadinoV4\api\ads.php on line 145
+[21-Aug-2025 06:16:35 UTC] PHP Stack trace:
+[21-Aug-2025 06:16:35 UTC] PHP   1. {main}() C:\wamp64\www\ShadinoV4\api\ads.php:0
+[21-Aug-2025 06:16:35 UTC] PHP   2. handle_get_ads() C:\wamp64\www\ShadinoV4\api\ads.php:7
+[21-Aug-2025 06:16:35 UTC] PHP   3. json_decode($json = NULL, $associative = TRUE) C:\wamp64\www\ShadinoV4\api\ads.php:145
+[21-Aug-2025 06:16:35 UTC] PHP Warning:  http_response_code(): Cannot set response code - headers already sent (output started at C:\wamp64\www\ShadinoV4\api\ads.php:145) in C:\wamp64\www\ShadinoV4\includes\functions.php on line 63
+[21-Aug-2025 06:16:35 UTC] PHP Stack trace:
+[21-Aug-2025 06:16:35 UTC] PHP   1. {main}() C:\wamp64\www\ShadinoV4\api\ads.php:0
+[21-Aug-2025 06:16:35 UTC] PHP   2. handle_get_ads() C:\wamp64\www\ShadinoV4\api\ads.php:7
+[21-Aug-2025 06:16:35 UTC] PHP   3. send_success($data = ['ads' => [0 => [...], 1 => [...], 2 => [...], 3 => [...]], 'pagination' => ['current_page' => 1, 'per_page' => 10, 'total' => '4', 'total_pages' => 1]], $message = *uninitialized*) C:\wamp64\www\ShadinoV4\api\ads.php:149
+[21-Aug-2025 06:16:35 UTC] PHP   4. send_response($data = ['success' => TRUE, 'message' => 'عملیات با موفقیت انجام شد', 'data' => ['ads' => [...], 'pagination' => [...]]], $status_code = *uninitialized*) C:\wamp64\www\ShadinoV4\includes\functions.php:73
+[21-Aug-2025 06:16:35 UTC] PHP   5. http_response_code($response_code = 200) C:\wamp64\www\ShadinoV4\includes\functions.php:63
+[21-Aug-2025 06:25:26 UTC] PHP Deprecated:  json_decode(): Passing null to parameter #1 ($json) of type string is deprecated in C:\wamp64\www\ShadinoV4\api\ads.php on line 145
+[21-Aug-2025 06:25:26 UTC] PHP Stack trace:
+[21-Aug-2025 06:25:26 UTC] PHP   1. {main}() C:\wamp64\www\ShadinoV4\api\ads.php:0
+[21-Aug-2025 06:25:26 UTC] PHP   2. handle_get_ads() C:\wamp64\www\ShadinoV4\api\ads.php:7
+[21-Aug-2025 06:25:26 UTC] PHP   3. json_decode($json = NULL, $associative = TRUE) C:\wamp64\www\ShadinoV4\api\ads.php:145
+[21-Aug-2025 06:25:26 UTC] PHP Deprecated:  json_decode(): Passing null to parameter #1 ($json) of type string is deprecated in C:\wamp64\www\ShadinoV4\api\ads.php on line 145
+[21-Aug-2025 06:25:26 UTC] PHP Stack trace:
+[21-Aug-2025 06:25:26 UTC] PHP   1. {main}() C:\wamp64\www\ShadinoV4\api\ads.php:0
+[21-Aug-2025 06:25:26 UTC] PHP   2. handle_get_ads() C:\wamp64\www\ShadinoV4\api\ads.php:7
+[21-Aug-2025 06:25:26 UTC] PHP   3. json_decode($json = NULL, $associative = TRUE) C:\wamp64\www\ShadinoV4\api\ads.php:145
+[21-Aug-2025 06:25:27 UTC] PHP Deprecated:  json_decode(): Passing null to parameter #1 ($json) of type string is deprecated in C:\wamp64\www\ShadinoV4\api\ads.php on line 145
+[21-Aug-2025 06:25:27 UTC] PHP Stack trace:
+[21-Aug-2025 06:25:27 UTC] PHP   1. {main}() C:\wamp64\www\ShadinoV4\api\ads.php:0
+[21-Aug-2025 06:25:27 UTC] PHP   2. handle_get_ads() C:\wamp64\www\ShadinoV4\api\ads.php:7
+[21-Aug-2025 06:25:27 UTC] PHP   3. json_decode($json = NULL, $associative = TRUE) C:\wamp64\www\ShadinoV4\api\ads.php:145
+[21-Aug-2025 06:25:27 UTC] PHP Deprecated:  json_decode(): Passing null to parameter #1 ($json) of type string is deprecated in C:\wamp64\www\ShadinoV4\api\ads.php on line 145
+[21-Aug-2025 06:25:27 UTC] PHP Stack trace:
+[21-Aug-2025 06:25:27 UTC] PHP   1. {main}() C:\wamp64\www\ShadinoV4\api\ads.php:0
+[21-Aug-2025 06:25:27 UTC] PHP   2. handle_get_ads() C:\wamp64\www\ShadinoV4\api\ads.php:7
+[21-Aug-2025 06:25:27 UTC] PHP   3. json_decode($json = NULL, $associative = TRUE) C:\wamp64\www\ShadinoV4\api\ads.php:145
+[21-Aug-2025 06:25:27 UTC] PHP Warning:  http_response_code(): Cannot set response code - headers already sent (output started at C:\wamp64\www\ShadinoV4\api\ads.php:145) in C:\wamp64\www\ShadinoV4\includes\functions.php on line 63
+[21-Aug-2025 06:25:27 UTC] PHP Stack trace:
+[21-Aug-2025 06:25:27 UTC] PHP   1. {main}() C:\wamp64\www\ShadinoV4\api\ads.php:0
+[21-Aug-2025 06:25:27 UTC] PHP   2. handle_get_ads() C:\wamp64\www\ShadinoV4\api\ads.php:7
+[21-Aug-2025 06:25:27 UTC] PHP   3. send_success($data = ['ads' => [0 => [...], 1 => [...], 2 => [...], 3 => [...]], 'pagination' => ['current_page' => 1, 'per_page' => 10, 'total' => '4', 'total_pages' => 1]], $message = *uninitialized*) C:\wamp64\www\ShadinoV4\api\ads.php:149
+[21-Aug-2025 06:25:27 UTC] PHP   4. send_response($data = ['success' => TRUE, 'message' => 'عملیات با موفقیت انجام شد', 'data' => ['ads' => [...], 'pagination' => [...]]], $status_code = *uninitialized*) C:\wamp64\www\ShadinoV4\includes\functions.php:73
+[21-Aug-2025 06:25:27 UTC] PHP   5. http_response_code($response_code = 200) C:\wamp64\www\ShadinoV4\includes\functions.php:63
+[21-Aug-2025 08:58:23 UTC] PHP Deprecated:  json_decode(): Passing null to parameter #1 ($json) of type string is deprecated in C:\wamp64\www\ShadinoV4\api\ads.php on line 145
+[21-Aug-2025 08:58:23 UTC] PHP Stack trace:
+[21-Aug-2025 08:58:23 UTC] PHP   1. {main}() C:\wamp64\www\ShadinoV4\api\ads.php:0
+[21-Aug-2025 08:58:23 UTC] PHP   2. handle_get_ads() C:\wamp64\www\ShadinoV4\api\ads.php:7
+[21-Aug-2025 08:58:23 UTC] PHP   3. json_decode($json = NULL, $associative = TRUE) C:\wamp64\www\ShadinoV4\api\ads.php:145
+[21-Aug-2025 08:58:23 UTC] PHP Deprecated:  json_decode(): Passing null to parameter #1 ($json) of type string is deprecated in C:\wamp64\www\ShadinoV4\api\ads.php on line 145
+[21-Aug-2025 08:58:23 UTC] PHP Stack trace:
+[21-Aug-2025 08:58:23 UTC] PHP   1. {main}() C:\wamp64\www\ShadinoV4\api\ads.php:0
+[21-Aug-2025 08:58:23 UTC] PHP   2. handle_get_ads() C:\wamp64\www\ShadinoV4\api\ads.php:7
+[21-Aug-2025 08:58:23 UTC] PHP   3. json_decode($json = NULL, $associative = TRUE) C:\wamp64\www\ShadinoV4\api\ads.php:145
+[21-Aug-2025 08:58:23 UTC] PHP Deprecated:  json_decode(): Passing null to parameter #1 ($json) of type string is deprecated in C:\wamp64\www\ShadinoV4\api\ads.php on line 145
+[21-Aug-2025 08:58:23 UTC] PHP Stack trace:
+[21-Aug-2025 08:58:23 UTC] PHP   1. {main}() C:\wamp64\www\ShadinoV4\api\ads.php:0
+[21-Aug-2025 08:58:23 UTC] PHP   2. handle_get_ads() C:\wamp64\www\ShadinoV4\api\ads.php:7
+[21-Aug-2025 08:58:23 UTC] PHP   3. json_decode($json = NULL, $associative = TRUE) C:\wamp64\www\ShadinoV4\api\ads.php:145
+[21-Aug-2025 08:58:23 UTC] PHP Deprecated:  json_decode(): Passing null to parameter #1 ($json) of type string is deprecated in C:\wamp64\www\ShadinoV4\api\ads.php on line 145
+[21-Aug-2025 08:58:23 UTC] PHP Stack trace:
+[21-Aug-2025 08:58:23 UTC] PHP   1. {main}() C:\wamp64\www\ShadinoV4\api\ads.php:0
+[21-Aug-2025 08:58:23 UTC] PHP   2. handle_get_ads() C:\wamp64\www\ShadinoV4\api\ads.php:7
+[21-Aug-2025 08:58:23 UTC] PHP   3. json_decode($json = NULL, $associative = TRUE) C:\wamp64\www\ShadinoV4\api\ads.php:145
+[21-Aug-2025 08:58:23 UTC] PHP Warning:  http_response_code(): Cannot set response code - headers already sent (output started at C:\wamp64\www\ShadinoV4\api\ads.php:145) in C:\wamp64\www\ShadinoV4\includes\functions.php on line 63
+[21-Aug-2025 08:58:23 UTC] PHP Stack trace:
+[21-Aug-2025 08:58:23 UTC] PHP   1. {main}() C:\wamp64\www\ShadinoV4\api\ads.php:0
+[21-Aug-2025 08:58:23 UTC] PHP   2. handle_get_ads() C:\wamp64\www\ShadinoV4\api\ads.php:7
+[21-Aug-2025 08:58:23 UTC] PHP   3. send_success($data = ['ads' => [0 => [...], 1 => [...], 2 => [...], 3 => [...]], 'pagination' => ['current_page' => 1, 'per_page' => 10, 'total' => '4', 'total_pages' => 1]], $message = *uninitialized*) C:\wamp64\www\ShadinoV4\api\ads.php:149
+[21-Aug-2025 08:58:23 UTC] PHP   4. send_response($data = ['success' => TRUE, 'message' => 'عملیات با موفقیت انجام شد', 'data' => ['ads' => [...], 'pagination' => [...]]], $status_code = *uninitialized*) C:\wamp64\www\ShadinoV4\includes\functions.php:73
+[21-Aug-2025 08:58:23 UTC] PHP   5. http_response_code($response_code = 200) C:\wamp64\www\ShadinoV4\includes\functions.php:63
+[21-Aug-2025 09:56:41 UTC] PHP Deprecated:  json_decode(): Passing null to parameter #1 ($json) of type string is deprecated in C:\wamp64\www\ShadinoV4\api\ads.php on line 145
+[21-Aug-2025 09:56:41 UTC] PHP Stack trace:
+[21-Aug-2025 09:56:41 UTC] PHP   1. {main}() C:\wamp64\www\ShadinoV4\api\ads.php:0
+[21-Aug-2025 09:56:41 UTC] PHP   2. handle_get_ads() C:\wamp64\www\ShadinoV4\api\ads.php:7
+[21-Aug-2025 09:56:41 UTC] PHP   3. json_decode($json = NULL, $associative = TRUE) C:\wamp64\www\ShadinoV4\api\ads.php:145
+[21-Aug-2025 09:56:41 UTC] PHP Deprecated:  json_decode(): Passing null to parameter #1 ($json) of type string is deprecated in C:\wamp64\www\ShadinoV4\api\ads.php on line 145
+[21-Aug-2025 09:56:41 UTC] PHP Stack trace:
+[21-Aug-2025 09:56:41 UTC] PHP   1. {main}() C:\wamp64\www\ShadinoV4\api\ads.php:0
+[21-Aug-2025 09:56:41 UTC] PHP   2. handle_get_ads() C:\wamp64\www\ShadinoV4\api\ads.php:7
+[21-Aug-2025 09:56:41 UTC] PHP   3. json_decode($json = NULL, $associative = TRUE) C:\wamp64\www\ShadinoV4\api\ads.php:145
+[21-Aug-2025 09:56:41 UTC] PHP Deprecated:  json_decode(): Passing null to parameter #1 ($json) of type string is deprecated in C:\wamp64\www\ShadinoV4\api\ads.php on line 145
+[21-Aug-2025 09:56:41 UTC] PHP Stack trace:
+[21-Aug-2025 09:56:41 UTC] PHP   1. {main}() C:\wamp64\www\ShadinoV4\api\ads.php:0
+[21-Aug-2025 09:56:41 UTC] PHP   2. handle_get_ads() C:\wamp64\www\ShadinoV4\api\ads.php:7
+[21-Aug-2025 09:56:41 UTC] PHP   3. json_decode($json = NULL, $associative = TRUE) C:\wamp64\www\ShadinoV4\api\ads.php:145
+[21-Aug-2025 09:56:41 UTC] PHP Deprecated:  json_decode(): Passing null to parameter #1 ($json) of type string is deprecated in C:\wamp64\www\ShadinoV4\api\ads.php on line 145
+[21-Aug-2025 09:56:41 UTC] PHP Stack trace:
+[21-Aug-2025 09:56:41 UTC] PHP   1. {main}() C:\wamp64\www\ShadinoV4\api\ads.php:0
+[21-Aug-2025 09:56:41 UTC] PHP   2. handle_get_ads() C:\wamp64\www\ShadinoV4\api\ads.php:7
+[21-Aug-2025 09:56:41 UTC] PHP   3. json_decode($json = NULL, $associative = TRUE) C:\wamp64\www\ShadinoV4\api\ads.php:145
+[21-Aug-2025 09:56:41 UTC] PHP Warning:  http_response_code(): Cannot set response code - headers already sent (output started at C:\wamp64\www\ShadinoV4\api\ads.php:145) in C:\wamp64\www\ShadinoV4\includes\functions.php on line 63
+[21-Aug-2025 09:56:41 UTC] PHP Stack trace:
+[21-Aug-2025 09:56:41 UTC] PHP   1. {main}() C:\wamp64\www\ShadinoV4\api\ads.php:0
+[21-Aug-2025 09:56:41 UTC] PHP   2. handle_get_ads() C:\wamp64\www\ShadinoV4\api\ads.php:7
+[21-Aug-2025 09:56:41 UTC] PHP   3. send_success($data = ['ads' => [0 => [...], 1 => [...], 2 => [...], 3 => [...]], 'pagination' => ['current_page' => 1, 'per_page' => 10, 'total' => '4', 'total_pages' => 1]], $message = *uninitialized*) C:\wamp64\www\ShadinoV4\api\ads.php:149
+[21-Aug-2025 09:56:41 UTC] PHP   4. send_response($data = ['success' => TRUE, 'message' => 'عملیات با موفقیت انجام شد', 'data' => ['ads' => [...], 'pagination' => [...]]], $status_code = *uninitialized*) C:\wamp64\www\ShadinoV4\includes\functions.php:73
+[21-Aug-2025 09:56:41 UTC] PHP   5. http_response_code($response_code = 200) C:\wamp64\www\ShadinoV4\includes\functions.php:63
+[21-Aug-2025 10:01:52 UTC] PHP Deprecated:  json_decode(): Passing null to parameter #1 ($json) of type string is deprecated in C:\wamp64\www\ShadinoV4\api\ads.php on line 145
+[21-Aug-2025 10:01:52 UTC] PHP Stack trace:
+[21-Aug-2025 10:01:52 UTC] PHP   1. {main}() C:\wamp64\www\ShadinoV4\api\ads.php:0
+[21-Aug-2025 10:01:52 UTC] PHP   2. handle_get_ads() C:\wamp64\www\ShadinoV4\api\ads.php:7
+[21-Aug-2025 10:01:52 UTC] PHP   3. json_decode($json = NULL, $associative = TRUE) C:\wamp64\www\ShadinoV4\api\ads.php:145
+[21-Aug-2025 10:01:52 UTC] PHP Deprecated:  json_decode(): Passing null to parameter #1 ($json) of type string is deprecated in C:\wamp64\www\ShadinoV4\api\ads.php on line 145
+[21-Aug-2025 10:01:52 UTC] PHP Stack trace:
+[21-Aug-2025 10:01:52 UTC] PHP   1. {main}() C:\wamp64\www\ShadinoV4\api\ads.php:0
+[21-Aug-2025 10:01:52 UTC] PHP   2. handle_get_ads() C:\wamp64\www\ShadinoV4\api\ads.php:7
+[21-Aug-2025 10:01:52 UTC] PHP   3. json_decode($json = NULL, $associative = TRUE) C:\wamp64\www\ShadinoV4\api\ads.php:145
+[21-Aug-2025 10:01:52 UTC] PHP Deprecated:  json_decode(): Passing null to parameter #1 ($json) of type string is deprecated in C:\wamp64\www\ShadinoV4\api\ads.php on line 145
+[21-Aug-2025 10:01:52 UTC] PHP Stack trace:
+[21-Aug-2025 10:01:52 UTC] PHP   1. {main}() C:\wamp64\www\ShadinoV4\api\ads.php:0
+[21-Aug-2025 10:01:52 UTC] PHP   2. handle_get_ads() C:\wamp64\www\ShadinoV4\api\ads.php:7
+[21-Aug-2025 10:01:52 UTC] PHP   3. json_decode($json = NULL, $associative = TRUE) C:\wamp64\www\ShadinoV4\api\ads.php:145
+[21-Aug-2025 10:01:52 UTC] PHP Deprecated:  json_decode(): Passing null to parameter #1 ($json) of type string is deprecated in C:\wamp64\www\ShadinoV4\api\ads.php on line 145
+[21-Aug-2025 10:01:52 UTC] PHP Stack trace:
+[21-Aug-2025 10:01:52 UTC] PHP   1. {main}() C:\wamp64\www\ShadinoV4\api\ads.php:0
+[21-Aug-2025 10:01:52 UTC] PHP   2. handle_get_ads() C:\wamp64\www\ShadinoV4\api\ads.php:7
+[21-Aug-2025 10:01:52 UTC] PHP   3. json_decode($json = NULL, $associative = TRUE) C:\wamp64\www\ShadinoV4\api\ads.php:145
+[21-Aug-2025 10:01:52 UTC] PHP Warning:  http_response_code(): Cannot set response code - headers already sent (output started at C:\wamp64\www\ShadinoV4\api\ads.php:145) in C:\wamp64\www\ShadinoV4\includes\functions.php on line 63
+[21-Aug-2025 10:01:52 UTC] PHP Stack trace:
+[21-Aug-2025 10:01:52 UTC] PHP   1. {main}() C:\wamp64\www\ShadinoV4\api\ads.php:0
+[21-Aug-2025 10:01:52 UTC] PHP   2. handle_get_ads() C:\wamp64\www\ShadinoV4\api\ads.php:7
+[21-Aug-2025 10:01:52 UTC] PHP   3. send_success($data = ['ads' => [0 => [...], 1 => [...], 2 => [...], 3 => [...]], 'pagination' => ['current_page' => 1, 'per_page' => 10, 'total' => '4', 'total_pages' => 1]], $message = *uninitialized*) C:\wamp64\www\ShadinoV4\api\ads.php:149
+[21-Aug-2025 10:01:52 UTC] PHP   4. send_response($data = ['success' => TRUE, 'message' => 'عملیات با موفقیت انجام شد', 'data' => ['ads' => [...], 'pagination' => [...]]], $status_code = *uninitialized*) C:\wamp64\www\ShadinoV4\includes\functions.php:73
+[21-Aug-2025 10:01:52 UTC] PHP   5. http_response_code($response_code = 200) C:\wamp64\www\ShadinoV4\includes\functions.php:63
+[06-Sep-2025 01:33:40 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'shadino.user_stats' doesn't exist in C:\wamp64\www\ShadinoV5\profile.php:32
+Stack trace:
+#0 C:\wamp64\www\ShadinoV5\profile.php(32): mysqli->prepare('SELECT * FROM u...')
+#1 {main}
+  thrown in C:\wamp64\www\ShadinoV5\profile.php on line 32
+[06-Sep-2025 01:33:42 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'shadino.user_stats' doesn't exist in C:\wamp64\www\ShadinoV5\profile.php:32
+Stack trace:
+#0 C:\wamp64\www\ShadinoV5\profile.php(32): mysqli->prepare('SELECT * FROM u...')
+#1 {main}
+  thrown in C:\wamp64\www\ShadinoV5\profile.php on line 32
+[06-Sep-2025 01:37:02 UTC] PHP Fatal error:  Cannot redeclare get_user_stats() (previously declared in C:\wamp64\www\ShadinoV5\api\ratings.php:287) in C:\wamp64\www\ShadinoV5\includes\functions.php on line 141
+[06-Sep-2025 01:37:02 UTC] PHP Stack trace:
+[06-Sep-2025 01:37:02 UTC] PHP   1. {main}() C:\wamp64\www\ShadinoV5\api\ratings.php:0
+[06-Sep-2025 01:37:10 UTC] PHP Fatal error:  Cannot redeclare get_user_stats() (previously declared in C:\wamp64\www\ShadinoV5\api\ratings.php:287) in C:\wamp64\www\ShadinoV5\includes\functions.php on line 141
+[06-Sep-2025 01:37:10 UTC] PHP Stack trace:
+[06-Sep-2025 01:37:10 UTC] PHP   1. {main}() C:\wamp64\www\ShadinoV5\api\ratings.php:0
+[06-Sep-2025 01:40:13 UTC] PHP Fatal error:  Cannot redeclare get_user_stats() (previously declared in C:\wamp64\www\ShadinoV5\api\ratings.php:287) in C:\wamp64\www\ShadinoV5\includes\functions.php on line 141
+[06-Sep-2025 01:40:13 UTC] PHP Stack trace:
+[06-Sep-2025 01:40:13 UTC] PHP   1. {main}() C:\wamp64\www\ShadinoV5\api\ratings.php:0
+[06-Sep-2025 01:40:47 UTC] PHP Fatal error:  Cannot redeclare get_user_stats() (previously declared in C:\wamp64\www\ShadinoV5\api\ratings.php:287) in C:\wamp64\www\ShadinoV5\includes\functions.php on line 141
+[06-Sep-2025 01:40:47 UTC] PHP Stack trace:
+[06-Sep-2025 01:40:47 UTC] PHP   1. {main}() C:\wamp64\www\ShadinoV5\api\ratings.php:0
+[06-Sep-2025 01:40:48 UTC] PHP Fatal error:  Cannot redeclare get_user_stats() (previously declared in C:\wamp64\www\ShadinoV5\api\ratings.php:287) in C:\wamp64\www\ShadinoV5\includes\functions.php on line 141
+[06-Sep-2025 01:40:48 UTC] PHP Stack trace:
+[06-Sep-2025 01:40:48 UTC] PHP   1. {main}() C:\wamp64\www\ShadinoV5\api\ratings.php:0
+[06-Sep-2025 01:40:50 UTC] PHP Fatal error:  Cannot redeclare get_user_stats() (previously declared in C:\wamp64\www\ShadinoV5\api\ratings.php:287) in C:\wamp64\www\ShadinoV5\includes\functions.php on line 141
+[06-Sep-2025 01:40:50 UTC] PHP Stack trace:
+[06-Sep-2025 01:40:50 UTC] PHP   1. {main}() C:\wamp64\www\ShadinoV5\api\ratings.php:0
+[06-Sep-2025 01:41:55 UTC] PHP Fatal error:  Cannot redeclare get_user_stats() (previously declared in C:\wamp64\www\ShadinoV5\api\ratings.php:287) in C:\wamp64\www\ShadinoV5\includes\functions.php on line 141
+[06-Sep-2025 01:41:55 UTC] PHP Stack trace:
+[06-Sep-2025 01:41:55 UTC] PHP   1. {main}() C:\wamp64\www\ShadinoV5\api\ratings.php:0
+[06-Sep-2025 01:41:56 UTC] PHP Fatal error:  Cannot redeclare get_user_stats() (previously declared in C:\wamp64\www\ShadinoV5\api\ratings.php:287) in C:\wamp64\www\ShadinoV5\includes\functions.php on line 141
+[06-Sep-2025 01:41:56 UTC] PHP Stack trace:
+[06-Sep-2025 01:41:56 UTC] PHP   1. {main}() C:\wamp64\www\ShadinoV5\api\ratings.php:0
+[06-Sep-2025 01:41:57 UTC] PHP Fatal error:  Cannot redeclare get_user_stats() (previously declared in C:\wamp64\www\ShadinoV5\api\ratings.php:287) in C:\wamp64\www\ShadinoV5\includes\functions.php on line 141
+[06-Sep-2025 01:41:57 UTC] PHP Stack trace:
+[06-Sep-2025 01:41:57 UTC] PHP   1. {main}() C:\wamp64\www\ShadinoV5\api\ratings.php:0
+[06-Sep-2025 01:43:14 UTC] PHP Fatal error:  Cannot redeclare get_user_stats() (previously declared in C:\wamp64\www\ShadinoV5\api\ratings.php:287) in C:\wamp64\www\ShadinoV5\includes\functions.php on line 141
+[06-Sep-2025 01:43:14 UTC] PHP Stack trace:
+[06-Sep-2025 01:43:14 UTC] PHP   1. {main}() C:\wamp64\www\ShadinoV5\api\ratings.php:0
+[06-Sep-2025 01:51:37 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active (started from C:\wamp64\www\ShadinoV5\includes\config.php on line 42) in C:\wamp64\www\ShadinoV5\test_privacy.php on line 6
+[06-Sep-2025 01:51:37 UTC] PHP Stack trace:
+[06-Sep-2025 01:51:37 UTC] PHP   1. {main}() C:\wamp64\www\ShadinoV5\test_privacy.php:0
+[06-Sep-2025 01:51:37 UTC] PHP   2. session_start() C:\wamp64\www\ShadinoV5\test_privacy.php:6
+[06-Sep-2025 15:02:43 UTC] Registration input: {"name":"\u06a9\u0627\u0631\u0628\u0631 \u067e\u06cc\u06a9","mobile":"09157967158","password":"qweqwe","role":"","city":"mashhad"}
+[06-Sep-2025 15:02:43 UTC] Role received: customer
+[06-Sep-2025 15:03:11 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active (started from C:\wamp64\www\ShadinoV5\includes\config.php on line 42) in C:\wamp64\www\ShadinoV5\test_privacy.php on line 6
+[06-Sep-2025 15:03:11 UTC] PHP Stack trace:
+[06-Sep-2025 15:03:11 UTC] PHP   1. {main}() C:\wamp64\www\ShadinoV5\test_privacy.php:0
+[06-Sep-2025 15:03:11 UTC] PHP   2. session_start() C:\wamp64\www\ShadinoV5\test_privacy.php:6
+[06-Sep-2025 15:04:47 UTC] Registration input: {"name":"\u062a\u0633\u062a","mobile":"09111111777","password":"qweqwe","role":"","city":"isfahan"}
+[06-Sep-2025 15:04:47 UTC] Role received: customer
+[06-Sep-2025 15:07:38 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active (started from C:\wamp64\www\ShadinoV5\includes\config.php on line 42) in C:\wamp64\www\ShadinoV5\test_privacy.php on line 6
+[06-Sep-2025 15:07:38 UTC] PHP Stack trace:
+[06-Sep-2025 15:07:38 UTC] PHP   1. {main}() C:\wamp64\www\ShadinoV5\test_privacy.php:0
+[06-Sep-2025 15:07:38 UTC] PHP   2. session_start() C:\wamp64\www\ShadinoV5\test_privacy.php:6
+[06-Sep-2025 15:08:26 UTC] Registration input: {"name":"\u0639\u0644\u06cc \u0627\u062d\u0645\u062f\u06cc \u0627\u0635\u0644","mobile":"09777777776","password":"qweqwe","role":"","city":"kermanshah"}
+[06-Sep-2025 15:08:26 UTC] Role received: customer
+[06-Sep-2025 15:12:34 UTC] Registration input: {"name":"\u0639\u0644\u06cc \u0627\u062d\u0645\u062f\u06cc \u067e\u0648\u0631","mobile":"09888888882","password":"qweqwe","role":"","city":"rasht"}
+[06-Sep-2025 15:12:34 UTC] Role received: customer
+[06-Sep-2025 15:18:42 UTC] Registration input: {"name":"\u062a\u0633\u062a","mobile":"09111111122","password":"qweqwe","role":"delivery","city":"other"}
+[06-Sep-2025 15:18:42 UTC] Role received: delivery
+[06-Sep-2025 15:18:49 UTC] Registration input: {"name":"\u062a\u0633\u062a","mobile":"09111911122","password":"qweqwe","role":"delivery","city":"other"}
+[06-Sep-2025 15:18:49 UTC] Role received: delivery
+[06-Sep-2025 15:18:52 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\wamp64\www\ShadinoV5\header.php:1) in C:\wamp64\www\ShadinoV5\index.php on line 12
+[06-Sep-2025 15:18:52 UTC] PHP Stack trace:
+[06-Sep-2025 15:18:52 UTC] PHP   1. {main}() C:\wamp64\www\ShadinoV5\index.php:0
+[06-Sep-2025 15:18:52 UTC] PHP   2. header($header = 'Location: /index_courier.php') C:\wamp64\www\ShadinoV5\index.php:12
+[06-Sep-2025 15:19:50 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\wamp64\www\ShadinoV5\header.php:1) in C:\wamp64\www\ShadinoV5\index.php on line 12
+[06-Sep-2025 15:19:50 UTC] PHP Stack trace:
+[06-Sep-2025 15:19:50 UTC] PHP   1. {main}() C:\wamp64\www\ShadinoV5\index.php:0
+[06-Sep-2025 15:19:50 UTC] PHP   2. header($header = 'Location: /index_courier.php') C:\wamp64\www\ShadinoV5\index.php:12
+[09-Sep-2025 02:29:24 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'shadino.user_portfolios' doesn't exist in C:\wamp64\www\ShadinoV6\api\portfolio.php:49
+Stack trace:
+#0 C:\wamp64\www\ShadinoV6\api\portfolio.php(49): mysqli->prepare('INSERT INTO use...')
+#1 {main}
+  thrown in C:\wamp64\www\ShadinoV6\api\portfolio.php on line 49
+[09-Sep-2025 02:35:28 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'shadino.user_portfolios' doesn't exist in C:\wamp64\www\ShadinoV6\api\portfolio.php:49
+Stack trace:
+#0 C:\wamp64\www\ShadinoV6\api\portfolio.php(49): mysqli->prepare('INSERT INTO use...')
+#1 {main}
+  thrown in C:\wamp64\www\ShadinoV6\api\portfolio.php on line 49
+[09-Sep-2025 02:41:05 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Failed to open the referenced table 'users' in C:\wamp64\www\ShadinoV6\scripts\install_portfolio.php:18
+Stack trace:
+#0 C:\wamp64\www\ShadinoV6\scripts\install_portfolio.php(18): mysqli_multi_query(Object(mysqli), '-- SQL for user...')
+#1 {main}
+  thrown in C:\wamp64\www\ShadinoV6\scripts\install_portfolio.php on line 18
+[09-Sep-2025 02:42:19 UTC] PHP Warning:  http_response_code(): Cannot set response code - headers already sent (output started at C:\wamp64\www\ShadinoV6\test_portfolio_api.php:4) in C:\wamp64\www\ShadinoV6\includes\functions.php on line 123
+[09-Sep-2025 02:42:19 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\wamp64\www\ShadinoV6\test_portfolio_api.php:4) in C:\wamp64\www\ShadinoV6\includes\functions.php on line 124

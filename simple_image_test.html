@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>تست ساده عکس</title>
+    <style>
+        body { font-family: Arial, sans-serif; padding: 20px; }
+        .test { margin: 20px 0; padding: 15px; border: 1px solid #ccc; }
+        .success { border-color: green; background: #f0fff0; }
+        .error { border-color: red; background: #fff0f0; }
+        img { max-width: 300px; height: auto; border: 2px solid #ccc; }
+    </style>
+</head>
+<body>
+    <h1>تست ساده دسترسی به عکس‌ها</h1>
+    
+    <div class="test">
+        <h3>تست 1: مسیر نسبی</h3>
+        <p>مسیر: uploads/dba8048896c7de601a8b150516bcf102.jpg</p>
+        <img src="uploads/dba8048896c7de601a8b150516bcf102.jpg" 
+             alt="تست 1"
+             onload="this.parentElement.className='test success'; console.log('Success: uploads/dba8048896c7de601a8b150516bcf102.jpg');"
+             onerror="this.parentElement.className='test error'; console.error('Error: uploads/dba8048896c7de601a8b150516bcf102.jpg');">
+    </div>
+
+    <div class="test">
+        <h3>تست 2: مسیر مطلق</h3>
+        <p>مسیر: /uploads/dba8048896c7de601a8b150516bcf102.jpg</p>
+        <img src="/uploads/dba8048896c7de601a8b150516bcf102.jpg" 
+             alt="تست 2"
+             onload="this.parentElement.className='test success'; console.log('Success: /uploads/dba8048896c7de601a8b150516bcf102.jpg');"
+             onerror="this.parentElement.className='test error'; console.error('Error: /uploads/dba8048896c7de601a8b150516bcf102.jpg');">
+    </div>
+
+    <div class="test">
+        <h3>تست 3: URL کامل</h3>
+        <p>مسیر: <span id="fullPath"></span></p>
+        <img id="fullPathImg" 
+             alt="تست 3"
+             onload="this.parentElement.className='test success'; console.log('Success: Full path');"
+             onerror="this.parentElement.className='test error'; console.error('Error: Full path');">
+    </div>
+
+    <div class="test">
+        <h3>تست 4: همه فایل‌ها</h3>
+        <div id="allFiles"></div>
+    </div>
+
+    <script>
+        // Set full path
+        const baseUrl = window.location.origin;
+        const fullPath = baseUrl + '/uploads/dba8048896c7de601a8b150516bcf102.jpg';
+        document.getElementById('fullPath').textContent = fullPath;
+        document.getElementById('fullPathImg').src = fullPath;
+
+        // Test all files
+        const files = [
+            'dba8048896c7de601a8b150516bcf102.jpg',
+            '22866ef0f17cf5d0101776b8f5f3d7d8.jpg',
+            '7c2a80ab7ffc909d77bb42a616137993.jpg'
+        ];
+
+        const allFilesDiv = document.getElementById('allFiles');
+        files.forEach((file, index) => {
+            const div = document.createElement('div');
+            div.style.margin = '10px 0';
+            div.innerHTML = `
+                <p><strong>فایل ${index + 1}:</strong> ${file}</p>
+                <img src="uploads/${file}" 
+                     style="max-width: 200px; height: auto; border: 1px solid #ccc;"
+                     alt="${file}"
+                     onload="this.style.border='3px solid green'; console.log('All files test ${index + 1}: Success - ${file}');"
+                     onerror="this.style.border='3px solid red'; console.error('All files test ${index + 1}: Failed - ${file}');">
+            `;
+            allFilesDiv.appendChild(div);
+        });
+
+        // Log network errors
+        window.addEventListener('error', function(e) {
+            if (e.target.tagName === 'IMG') {
+                console.error('Image load error:', e.target.src);
+            }
+        });
+    </script>
+</body>
+</html>
