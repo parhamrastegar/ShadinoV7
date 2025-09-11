@@ -24,19 +24,21 @@ include 'header.php';
             <?php else: ?>
             
             <?php
-            // Get top rated businesses
+            // Get top rated users with ratings
             $query = "
                 SELECT 
-                    u.*,
-                    us.average_rating,
-                    us.total_ratings,
-                    us.total_completed_orders,
-                    (SELECT COUNT(*) FROM portfolio_items WHERE user_id = u.id) as portfolio_count
+                    u.id,
+                    u.username,
+                    u.profile_image,
+                    u.bio,
+                    u.user_type,
+                    COUNT(r.id) as total_ratings,
+                    COALESCE(AVG(r.rating), 0) as average_rating
                 FROM users u
-                JOIN user_stats us ON u.id = us.user_id
-                WHERE u.user_type = 'business'
-                    AND us.total_ratings >= 3 -- حداقل 3 امتیاز برای اعتبار بیشتر
-                ORDER BY us.average_rating DESC, us.total_ratings DESC
+                LEFT JOIN user_ratings r ON u.id = r.rated_user_id
+                GROUP BY u.id
+                HAVING total_ratings > 0
+                ORDER BY average_rating DESC, total_ratings DESC
                 LIMIT 12
             ";
             
@@ -47,32 +49,32 @@ include 'header.php';
             <div class="row">
                 <?php while ($business = mysqli_fetch_assoc($result)): ?>
                 <div class="col-md-4 mb-4">
-                    <div class="card business-card h-100">
-                        <div class="business-banner">
-                            <?php if ($business['cover_image']): ?>
-                            <img src="<?php echo htmlspecialchars($business['cover_image']); ?>" 
-                                 class="card-img-top" alt="تصویر کسب و کار">
-                            <?php else: ?>
-                            <div class="default-banner"></div>
-                            <?php endif; ?>
-                        </div>
-                        
-                        <div class="business-profile-image">
-                            <img src="<?php echo $business['profile_image'] ?? 'assets/images/default-avatar.png'; ?>" 
-                                 alt="<?php echo htmlspecialchars($business['username']); ?>"
-                                 class="rounded-circle">
-                        </div>
-                        
+                    <div class="card user-card h-100">
                         <div class="card-body text-center">
-                            <h5 class="card-title">
-                                <a href="profile.php?user_id=<?php echo $business['id']; ?>" class="text-dark">
-                                    <?php echo htmlspecialchars($business['username']); ?>
-                                </a>
-                            </h5>
+                            <a href="profile.php?user_id=<?php echo $user['id']; ?>" class="text-decoration-none">
+                                <div class="user-avatar mb-3">
+                                    <?php if ($user['profile_image']): ?>
+                                        <img src="<?php echo htmlspecialchars($user['profile_image']); ?>" 
+                                             alt="<?php echo htmlspecialchars($user['username']); ?>"
+                                             class="rounded-circle">
+                                    <?php else: ?>
+                                        <img src="assets/images/default-avatar.png" 
+                                             alt="Default Avatar"
+                                             class="rounded-circle">
+                                    <?php endif; ?>
+                                </div>
+                                
+                                <h5 class="card-title mb-2">
+                                    <?php echo htmlspecialchars($user['username']); ?>
+                                    <?php if ($user['user_type'] == 'business'): ?>
+                                        <span class="badge bg-primary">کسب و کار</span>
+                                    <?php endif; ?>
+                                </h5>
+                            </a>
                             
-                            <div class="rating-stars mb-2">
+                            <div class="rating-stars mb-3">
                                 <?php
-                                $rating = round($business['average_rating'] * 2) / 2; // Round to nearest 0.5
+                                $rating = round($user['average_rating'] * 2) / 2;
                                 for ($i = 1; $i <= 5; $i++) {
                                     if ($rating >= $i) {
                                         echo '<i class="fas fa-star text-warning"></i>';
@@ -83,41 +85,21 @@ include 'header.php';
                                     }
                                 }
                                 ?>
-                                <span class="rating-text mr-2">
-                                    <?php echo number_format($business['average_rating'], 1); ?>
-                                    <small class="text-muted">(<?php echo $business['total_ratings']; ?> نظر)</small>
-                                </span>
+                                <div class="rating-text">
+                                    <?php echo number_format($user['average_rating'], 1); ?>
+                                    <small class="text-muted">(<?php echo $user['total_ratings']; ?> نظر)</small>
+                                </div>
                             </div>
                             
-                            <p class="card-text text-muted mb-3">
-                                <?php
-                                if (!empty($business['bio'])) {
-                                    echo mb_strlen($business['bio']) > 100 ? 
-                                         mb_substr(htmlspecialchars($business['bio']), 0, 100) . '...' : 
-                                         htmlspecialchars($business['bio']);
-                                } else {
-                                    echo 'توضیحات موجود نیست';
-                                }
+                            <?php if (!empty($user['bio'])): ?>
+                            <p class="card-text text-muted small">
+                                <?php 
+                                echo mb_strlen($user['bio']) > 100 ? 
+                                     mb_substr(htmlspecialchars($user['bio']), 0, 100) . '...' : 
+                                     htmlspecialchars($user['bio']);
                                 ?>
                             </p>
-                            
-                            <div class="business-stats d-flex justify-content-around mb-3">
-                                <div class="stat-item">
-                                    <i class="fas fa-shopping-bag"></i>
-                                    <span><?php echo $business['total_completed_orders']; ?></span>
-                                    <small>سفارش</small>
-                                </div>
-                                <div class="stat-item">
-                                    <i class="fas fa-images"></i>
-                                    <span><?php echo $business['portfolio_count']; ?></span>
-                                    <small>نمونه کار</small>
-                                </div>
-                                <div class="stat-item">
-                                    <i class="fas fa-star"></i>
-                                    <span><?php echo $business['total_ratings']; ?></span>
-                                    <small>نظر</small>
-                                </div>
-                            </div>
+                            <?php endif; ?>
                             
                             <div class="business-actions">
                                 <a href="profile.php?user_id=<?php echo $business['id']; ?>" 

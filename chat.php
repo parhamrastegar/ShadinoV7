@@ -236,7 +236,15 @@ document.addEventListener('DOMContentLoaded', () => {
     // Set up message form
     const messageForm = document.getElementById('messageForm');
     if (messageForm) {
-        messageForm.addEventListener('submit', sendMessage);
+        messageForm.addEventListener('submit', function(e) {
+            e.preventDefault();
+            sendMessage(e);
+        });
+    }
+    
+    // Start initial conversation if user_id is provided
+    if (initialOtherUserId) {
+        startConversation(initialOtherUserId);
     }
 });
 
@@ -317,7 +325,10 @@ function sendMessage(event) {
     const messageInput = document.getElementById('messageInput');
     const message = messageInput.value.trim();
     
-    if (!message || !currentConversationId) return;
+    if (!message || !currentConversationId) {
+        alert('لطفاً پیام خود را وارد کنید');
+        return;
+    }
     
     fetch('/api/chat.php', {
         method: 'POST',
@@ -334,7 +345,13 @@ function sendMessage(event) {
         if (data.success) {
             messageInput.value = '';
             loadConversation(currentConversationId);
+        } else {
+            alert('خطا در ارسال پیام: ' + (data.message || 'خطای نامشخص'));
         }
+    })
+    .catch(error => {
+        console.error('Error:', error);
+        alert('خطا در ارسال پیام');
     });
 }
 

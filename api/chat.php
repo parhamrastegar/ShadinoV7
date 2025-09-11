@@ -153,8 +153,8 @@ function sendMessage($conversation_id, $sender_id, $message) {
         WHERE id = ? AND (user1_id = ? OR user2_id = ?)");
     mysqli_stmt_bind_param($stmt, "iii", $conversation_id, $sender_id, $sender_id);
     mysqli_stmt_execute($stmt);
-    
-    if (!mysqli_stmt_fetch($stmt)) {
+    mysqli_stmt_store_result($stmt);
+    if (mysqli_stmt_num_rows($stmt) === 0) {
         send_error('Unauthorized access to conversation', 403);
     }
 

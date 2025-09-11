@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1:3306
--- Generation Time: Sep 06, 2025 at 03:39 PM
+-- Generation Time: Sep 11, 2025 at 08:13 AM
 -- Server version: 9.1.0
 -- PHP Version: 8.3.14
 
@@ -66,6 +66,24 @@ INSERT INTO `ads` (`id`, `user_id`, `title`, `description`, `category`, `budget_
 -- --------------------------------------------------------
 
 --
+-- Table structure for table `conversations`
+--
+
+DROP TABLE IF EXISTS `conversations`;
+CREATE TABLE IF NOT EXISTS `conversations` (
+  `id` int NOT NULL AUTO_INCREMENT,
+  `user1_id` int NOT NULL,
+  `user2_id` int NOT NULL,
+  `created_at` timestamp NULL DEFAULT CURRENT_TIMESTAMP,
+  `updated_at` timestamp NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+  PRIMARY KEY (`id`),
+  KEY `user1_id` (`user1_id`),
+  KEY `user2_id` (`user2_id`)
+) ENGINE=MyISAM DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+
+-- --------------------------------------------------------
+
+--
 -- Table structure for table `deliveries`
 --
 
@@ -99,18 +117,15 @@ CREATE TABLE IF NOT EXISTS `deliveries` (
 DROP TABLE IF EXISTS `messages`;
 CREATE TABLE IF NOT EXISTS `messages` (
   `id` int NOT NULL AUTO_INCREMENT,
+  `conversation_id` int NOT NULL,
   `sender_id` int NOT NULL,
-  `receiver_id` int NOT NULL,
-  `ad_id` int DEFAULT NULL,
   `message` text COLLATE utf8mb4_unicode_ci NOT NULL,
-  `file_path` varchar(255) COLLATE utf8mb4_unicode_ci DEFAULT NULL,
   `is_read` tinyint(1) DEFAULT '0',
-  `created_at` datetime DEFAULT CURRENT_TIMESTAMP,
+  `created_at` timestamp NULL DEFAULT CURRENT_TIMESTAMP,
   PRIMARY KEY (`id`),
-  KEY `receiver_id` (`receiver_id`),
-  KEY `idx_sender_receiver` (`sender_id`,`receiver_id`),
-  KEY `idx_ad_id` (`ad_id`),
-  KEY `idx_created_at` (`created_at`)
+  KEY `idx_conversation_time` (`conversation_id`,`created_at`),
+  KEY `idx_sender` (`sender_id`),
+  KEY `idx_is_read` (`is_read`)
 ) ENGINE=MyISAM DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
 -- --------------------------------------------------------
@@ -210,7 +225,7 @@ CREATE TABLE IF NOT EXISTS `users` (
   KEY `idx_mobile` (`mobile`),
   KEY `idx_role` (`role`),
   KEY `idx_city` (`city`)
-) ENGINE=MyISAM AUTO_INCREMENT=23 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+) ENGINE=MyISAM AUTO_INCREMENT=24 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
 --
 -- Dumping data for table `users`
@@ -238,7 +253,26 @@ INSERT INTO `users` (`id`, `name`, `mobile`, `password`, `role`, `city`, `email`
 (19, 'علی احمدی اصل', '09777777776', '$2y$10$hoKMYOK52B/QEGDw8.JeWexxzC6T9FJ2Nd1Qhcts.J.VEgkOq4lVu', 'customer', 'kermanshah', NULL, NULL, NULL, 1, '2025-09-06 18:38:26', '2025-09-06 18:38:26'),
 (20, 'علی احمدی پور', '09888888882', '$2y$10$phqXEXVeDVJOY/ensMU66.IWqFrzj9e8pv1s0P/TJt03/vv.SA0ky', 'customer', 'rasht', NULL, NULL, NULL, 1, '2025-09-06 18:42:34', '2025-09-06 18:42:34'),
 (21, 'تست', '09111911122', '$2y$10$F.43/r7DykDeE48W7zMR..ygargidVw2UZKBI497UfQt6TjTVRU12', 'delivery', 'other', NULL, NULL, NULL, 1, '2025-09-06 18:48:50', '2025-09-06 18:48:50'),
-(22, 'پیک تست', '09123456792', '$2y$12$g9lZDOCY3lrzCdZ4yh5UH.jxOdTsjb2TTnaw2dRQ3nRMv26jNsGQ6', 'delivery', 'tehran', NULL, NULL, NULL, 1, '2025-09-06 19:02:24', '2025-09-06 19:02:24');
+(22, 'پیک تست', '09123456792', '$2y$12$g9lZDOCY3lrzCdZ4yh5UH.jxOdTsjb2TTnaw2dRQ3nRMv26jNsGQ6', 'delivery', 'tehran', NULL, NULL, NULL, 1, '2025-09-06 19:02:24', '2025-09-06 19:02:24'),
+(23, 'پرهام رستگار', '09000000000', '$2y$10$W2qYFq0AmQkEb.rhlQq9HeqtXignnkPpeka4ZcWraWEhnkrWo/n3q', 'business', 'urmia', NULL, NULL, NULL, 1, '2025-09-09 05:31:02', '2025-09-09 05:31:02');
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `user_portfolios`
+--
+
+DROP TABLE IF EXISTS `user_portfolios`;
+CREATE TABLE IF NOT EXISTS `user_portfolios` (
+  `id` int UNSIGNED NOT NULL AUTO_INCREMENT,
+  `user_id` int UNSIGNED NOT NULL,
+  `title` varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL,
+  `description` text COLLATE utf8mb4_unicode_ci,
+  `image` varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL,
+  `created_at` datetime NOT NULL DEFAULT CURRENT_TIMESTAMP,
+  PRIMARY KEY (`id`),
+  KEY `user_id` (`user_id`)
+) ENGINE=InnoDB AUTO_INCREMENT=6 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
 -- --------------------------------------------------------
 
@@ -256,7 +290,7 @@ CREATE TABLE IF NOT EXISTS `user_profiles` (
   PRIMARY KEY (`id`),
   UNIQUE KEY `user_id` (`user_id`),
   KEY `idx_user_id` (`user_id`)
-) ENGINE=MyISAM AUTO_INCREMENT=4 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+) ENGINE=MyISAM AUTO_INCREMENT=5 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
 --
 -- Dumping data for table `user_profiles`
@@ -265,7 +299,8 @@ CREATE TABLE IF NOT EXISTS `user_profiles` (
 INSERT INTO `user_profiles` (`id`, `user_id`, `profile_data`, `created_at`, `updated_at`) VALUES
 (1, 3, '{\"vehicle_type\": \"motorcycle\", \"delivery_city\": \"tehran\", \"license_number\": \"123456789\", \"experience_years\": 2}', '2025-09-06 19:01:45', '2025-09-06 19:01:45'),
 (2, 2, '{\"business_name\": \"فروشگاه کیک\", \"business_address\": \"تهران، خیابان ولیعصر\", \"business_license\": \"987654321\", \"business_category\": \"cake\"}', '2025-09-06 19:01:45', '2025-09-06 19:01:45'),
-(3, 22, '{\"vehicle_type\": \"motorcycle\", \"delivery_city\": \"tehran\", \"license_number\": \"TEST123456\", \"experience_years\": 1}', '2025-09-06 19:02:24', '2025-09-06 19:02:24');
+(3, 22, '{\"vehicle_type\": \"motorcycle\", \"delivery_city\": \"tehran\", \"license_number\": \"TEST123456\", \"experience_years\": 1}', '2025-09-06 19:02:24', '2025-09-06 19:02:24'),
+(4, 23, '{\"business_name\": \"رستگاران\", \"business_address\": \"\", \"business_license\": \"\", \"business_category\": \"cake\"}', '2025-09-09 05:31:02', '2025-09-09 05:31:02');
 
 -- --------------------------------------------------------
 
@@ -324,7 +359,7 @@ CREATE TABLE IF NOT EXISTS `user_stats` (
   UNIQUE KEY `user_id` (`user_id`),
   KEY `idx_user_id` (`user_id`),
   KEY `idx_average_rating` (`average_rating`)
-) ENGINE=MyISAM AUTO_INCREMENT=22 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+) ENGINE=MyISAM AUTO_INCREMENT=23 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
 --
 -- Dumping data for table `user_stats`
@@ -351,7 +386,8 @@ INSERT INTO `user_stats` (`id`, `user_id`, `total_ratings`, `average_rating`, `t
 (18, 18, 0, 0.00, 0, NULL, '2025-09-06 18:34:54', '2025-09-06 18:34:54'),
 (19, 19, 0, 0.00, 0, NULL, '2025-09-06 18:38:30', '2025-09-06 18:38:30'),
 (20, 20, 0, 0.00, 0, NULL, '2025-09-06 18:42:43', '2025-09-06 18:42:43'),
-(21, 21, 0, 0.00, 0, NULL, '2025-09-06 18:49:21', '2025-09-06 18:49:21');
+(21, 21, 0, 0.00, 0, NULL, '2025-09-06 18:49:21', '2025-09-06 18:49:21'),
+(22, 23, 0, 0.00, 0, NULL, '2025-09-09 05:31:19', '2025-09-09 05:31:19');
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;

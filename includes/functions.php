@@ -6,6 +6,7 @@ if (!isset($conn) || !$conn) {
     die('Database connection failed');
 }
 
+
 // Basic input functions
 function sanitize_input($data) {
     global $conn;
@@ -136,6 +137,8 @@ function send_error($message, $status_code = 400) {
 function send_success($data = [], $message = 'عملیات با موفقیت انجام شد') {
     send_response(['success' => true, 'message' => $message, 'data' => $data]);
 }
+
+
 
 // Simple session-based authentication
 function require_auth() {
