@@ -260,6 +260,7 @@
             <nav class="main-nav" id="mainNav">
                 <ul>
                     <li><a href="shop.php">فروشگاه</a></li>
+                    <li><a href="top_businesses.php">برترین کسب و کارها</a></li>
                     <li><a href="about.php">درباره ما</a></li>
                     <li><a href="login.php">ورود</a></li>
                     <li><a href="allads.php">همه آگهی ها</a></li>

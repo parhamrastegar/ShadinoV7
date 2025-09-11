@@ -632,6 +632,13 @@ if (mysqli_num_rows($ratings_table_check) > 0) {
 
                         <!-- Profile Info -->
                         <div class="profile-info">
+                            <?php if (!$is_own_profile): ?>
+                            <div class="info-item mb-4">
+                                <a href="chat.php?user_id=<?php echo $user_id; ?>" class="btn btn-primary">
+                                    <i class="fas fa-comments"></i> گفتگو با <?php echo htmlspecialchars($user_data['username']); ?>
+                                </a>
+                            </div>
+                            <?php endif; ?>
                             <?php if ($is_own_profile): ?>
                             <div class="info-item">
                                 <div class="info-icon">📱</div>
