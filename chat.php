@@ -250,7 +250,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
 // Load conversations list
 function loadConversations() {
-    fetch('/api/chat.php')
+    fetch('api/chat.php')
         .then(response => response.json())
         .then(data => {
             if (data.success) {
@@ -276,7 +276,7 @@ function loadConversations() {
 
 // Start new conversation
 function startConversation(otherUserId) {
-    fetch(`/api/chat.php?with_user=${otherUserId}`)
+    fetch(`api/chat.php?with_user=${otherUserId}`)
         .then(response => response.json())
         .then(data => {
             if (data.success) {
@@ -293,7 +293,7 @@ function loadConversation(conversationId) {
     });
     document.querySelector(`.chat-item[onclick="loadConversation(${conversationId})"]`)?.classList.add('active');
     
-    fetch(`/api/chat.php?conversation_id=${conversationId}`)
+    fetch('api/chat.php?conversation_id=' + conversationId)
         .then(response => response.json())
         .then(data => {
             if (data.success) {
@@ -330,7 +330,7 @@ function sendMessage(event) {
         return;
     }
     
-    fetch('/api/chat.php', {
+    fetch('api/chat.php', {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json',
