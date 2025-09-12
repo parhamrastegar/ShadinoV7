@@ -227,13 +227,12 @@ const userId = <?php echo $user_id; ?>;
 const initialOtherUserId = <?php echo $other_user_id ? $other_user_id : 'null'; ?>;
 
 // Initialize chat
+
 document.addEventListener('DOMContentLoaded', () => {
     loadConversations();
     if (initialOtherUserId) {
         startConversation(initialOtherUserId);
     }
-    
-    // Set up message form
     const messageForm = document.getElementById('messageForm');
     if (messageForm) {
         messageForm.addEventListener('submit', function(e) {
@@ -241,16 +240,11 @@ document.addEventListener('DOMContentLoaded', () => {
             sendMessage(e);
         });
     }
-    
-    // Start initial conversation if user_id is provided
-    if (initialOtherUserId) {
-        startConversation(initialOtherUserId);
-    }
 });
 
 // Load conversations list
 function loadConversations() {
-    fetch('api/chat.php')
+    fetch('api/get_conversations.php')
         .then(response => response.json())
         .then(data => {
             if (data.success) {
@@ -276,7 +270,7 @@ function loadConversations() {
 
 // Start new conversation
 function startConversation(otherUserId) {
-    fetch(`api/chat.php?with_user=${otherUserId}`)
+    fetch(`api/start_chat.php?with_user=${otherUserId}`)
         .then(response => response.json())
         .then(data => {
             if (data.success) {
@@ -291,9 +285,9 @@ function loadConversation(conversationId) {
     document.querySelectorAll('.chat-item').forEach(item => {
         item.classList.remove('active');
     });
-    document.querySelector(`.chat-item[onclick="loadConversation(${conversationId})"]`)?.classList.add('active');
+    document.querySelector(`.chat-item[onclick=\"loadConversation(${conversationId})\"]`)?.classList.add('active');
     
-    fetch('api/chat.php?conversation_id=' + conversationId)
+    fetch('api/get_messages.php?conversation_id=' + conversationId)
         .then(response => response.json())
         .then(data => {
             if (data.success) {
@@ -330,7 +324,7 @@ function sendMessage(event) {
         return;
     }
     
-    fetch('api/chat.php', {
+    fetch('api/send_message.php', {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json',
@@ -358,20 +352,16 @@ function sendMessage(event) {
 // Polling for new messages
 let pollingInterval;
 function startPolling() {
-    // Clear any existing polling
     if (pollingInterval) {
         clearInterval(pollingInterval);
     }
-    
-    // Start new polling
     pollingInterval = setInterval(() => {
         if (currentConversationId) {
             loadConversation(currentConversationId);
         }
-    }, 3000); // Poll every 3 seconds
+    }, 3000);
 }
 
-// Clean up when leaving page
 window.addEventListener('beforeunload', () => {
     if (pollingInterval) {
         clearInterval(pollingInterval);
